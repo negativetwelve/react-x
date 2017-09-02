@@ -1,0 +1,21 @@
+environment:
+  matrix:
+    - nodejs_version: 8
+
+install:
+  - ps: Install-Product node $env:nodejs_version
+  - choco install yarn --ignore-dependencies
+  - yarn
+  - yarn run clean
+  - yarn run build
+
+cache:
+  - .eslintcache
+  - node_modules
+  - "%LOCALAPPDATA%/Yarn"
+
+test_script:
+  - yarn lint:cached
+  - yarn test
+
+build: off
