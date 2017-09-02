@@ -1,0 +1,62 @@
+{
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=4",
+    "yarn": ">=0.27.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-jolt": "^2.8.0",
+    "coveralls": "^2.13.1",
+    "eslint": "^4.4.1",
+    "eslint-config-jolt": "^2.6.1",
+    "husky": "^0.14.3",
+    "jest": "^21.0.0-beta.1",
+    "lerna": "^2.0.0",
+    "lint-staged": "^4.0.3",
+    "rimraf": "^2.6.1"
+  },
+  "babel": {
+    "presets": [
+      [
+        "jolt",
+        {
+          "target": "node",
+          "react": true
+        }
+      ]
+    ]
+  },
+  "eslintConfig": {
+    "extends": "jolt"
+  },
+  "eslintIgnore": [
+    "build",
+    "coverage",
+    "node_modules"
+  ],
+  "jest": {
+    "preset": "jest-preset-jolt"
+  },
+  "lint-staged": {
+    "*.js": [
+      "yarn lint"
+    ]
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "build": "lerna run build",
+    "clean": "lerna clean --yes && lerna run clean",
+    "coveralls": "cat ./coverage/lcov.info | coveralls",
+    "lint": "eslint .",
+    "lint:cached": "yarn lint -- --cache",
+    "precommit": "lint-staged",
+    "test": "jest",
+    "test:build": "yarn run build && yarn run test",
+    "test:coverage": "yarn test -- --coverage"
+  }
+}
