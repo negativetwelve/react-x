@@ -1,0 +1,21 @@
+machine:
+  node:
+    version: 8
+  environment:
+    PATH: ${PATH}:${HOME}/${CIRCLE_PROJECT_REPONAME}/node_modules/.bin
+
+dependencies:
+  cache_directories:
+    - ~/.cache/yarn
+  override:
+    - yarn
+    - yarn run clean
+    - yarn run build
+
+test:
+  pre:
+    - yarn lint:cached
+  override:
+    - yarn test:coverage
+  post:
+    - yarn coveralls
