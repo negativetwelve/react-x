@@ -1,0 +1,29 @@
+{
+  "name": "react-x",
+  "version": "0.0.0",
+  "description": "Cross-platform React components.",
+  "license": "MIT",
+  "author": "Mark Miyashita <negativetwelve@gmail.com>",
+  "homepage": "https://github.com/negativetwelve/react-x",
+  "repository": "https://github.com/negativetwelve/react-x/tree/master/packages/react-x",
+  "keywords": [
+    "components",
+    "cross-platform",
+    "platform",
+    "react",
+    "react-native",
+    "react-x"
+  ],
+  "main": "build/index",
+  "files": [
+    "build"
+  ],
+  "peerDependencies": {
+    "react": "*"
+  },
+  "scripts": {
+    "build": "babel src --out-dir build --ignore \"**/__tests__/**\"",
+    "clean": "rimraf build",
+    "prepublishOnly": "yarn run clean && yarn run build"
+  }
+}
