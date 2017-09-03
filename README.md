@@ -1,3 +1,3 @@
 # react-x
 
-Cross-platform React components.
+Cross-platform React components for ReactDOM and React Native.

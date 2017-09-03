@@ -2,34 +2,52 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import SwitchIOS from 'react-ios-switch';
-import 'react-ios-switch/build/bundle.css';
 
 
-const SwitchX = (props) => (
-  <SwitchIOS
-    checked={props.isOn}
-    onColor={props.onTintColor}
-    onChange={props.onChange}
-  />
-);
+class SwitchX extends React.Component {
 
-// --------------------------------------------------
-// Props
-// --------------------------------------------------
-SwitchX.propTypes = {
-  onTintColor: PropTypes.string.isRequired,
-  isOn: PropTypes.bool.isRequired,
-  isDisabled: PropTypes.bool.isRequired,
-  onChange: PropTypes.func,
-  tintColor: PropTypes.string,
-  thumbTintColor: PropTypes.string,
-};
+  // --------------------------------------------------
+  // Props
+  // --------------------------------------------------
+  static propTypes = {
+    onTintColor: PropTypes.string.isRequired,
+    isOn: PropTypes.bool.isRequired,
+    isDisabled: PropTypes.bool.isRequired,
+    onChange: PropTypes.func,
+    tintColor: PropTypes.string,
+    thumbTintColor: PropTypes.string,
+  };
 
-SwitchX.defaultProps = {
-  onChange: null,
-  tintColor: null,
-  thumbTintColor: null,
-};
+  static defaultProps = {
+    onChange: null,
+    tintColor: null,
+    thumbTintColor: null,
+  };
+
+  // --------------------------------------------------
+  // Lifecycle
+  // --------------------------------------------------
+  constructor(props, context) {
+    super(props, context);
+    require('react-ios-switch/build/bundle.css');
+  }
+
+  // --------------------------------------------------
+  // Render
+  // --------------------------------------------------
+  render() {
+    const {isOn, onTintColor, onChange} = this.props;
+
+    return (
+      <SwitchIOS
+        checked={isOn}
+        onColor={onTintColor}
+        onChange={onChange}
+      />
+    );
+  }
+
+}
 
 
 export default SwitchX;
