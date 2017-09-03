@@ -2,7 +2,7 @@
 
 [![npm](https://img.shields.io/npm/v/react-x-render.svg)](https://www.npmjs.com/package/react-x-render)
 [![npm](https://img.shields.io/npm/dt/react-x-render.svg)](https://www.npmjs.com/package/react-x-render)
-[![npm](https://img.shields.io/npm/l/react-x-render.svg)](https://github.com/negativetwelve/handy/blob/master/LICENSE)
+[![npm](https://img.shields.io/npm/l/react-x-render.svg)](https://github.com/negativetwelve/react-x/blob/master/LICENSE)
 
 Render React components conditionally using if and unless.
 
