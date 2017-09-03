@@ -14,10 +14,13 @@
     "react-native",
     "react-x"
   ],
-  "main": "build/index",
+  "main": "build/react-x",
   "files": [
     "build"
   ],
+  "dependencies": {
+    "react-x-switch": "^0.2.0"
+  },
   "peerDependencies": {
     "react": "*"
   },
