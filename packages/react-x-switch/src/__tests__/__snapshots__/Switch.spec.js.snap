@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Switch with default props shallow renders snapshot 1`] = `
+<SwitchX
+  isDisabled={false}
+  isOn={false}
+  onChange={null}
+  onTintColor="#4CD964"
+  thumbTintColor={null}
+  tintColor={null}
+/>
+`;
+
+exports[`Switch with isOn set to false shallow renders snapshot 1`] = `
+<SwitchX
+  isDisabled={false}
+  isOn={false}
+  onChange={null}
+  onTintColor="#4CD964"
+  thumbTintColor={null}
+  tintColor={null}
+/>
+`;
+
+exports[`Switch with isOn set to true shallow renders snapshot 1`] = `
+<SwitchX
+  isDisabled={false}
+  isOn={true}
+  onChange={null}
+  onTintColor="#4CD964"
+  thumbTintColor={null}
+  tintColor={null}
+/>
+`;

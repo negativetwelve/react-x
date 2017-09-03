@@ -12,10 +12,15 @@
     "eslint": "^4.4.1",
     "eslint-config-jolt": "^2.6.1",
     "husky": "^0.14.3",
+    "identity-obj-proxy": "^3.0.0",
     "jest": "^21.0.0-beta.1",
+    "jest-plugins-react": "^2.1.0",
     "jest-preset-jolt": "^2.8.3",
     "lerna": "^2.0.0",
     "lint-staged": "^4.0.3",
+    "react": "16.0.0-alpha.12",
+    "react-dom": "16.0.0-alpha.12",
+    "react-native": "0.47.2",
     "rimraf": "^2.6.1"
   },
   "babel": {
@@ -38,7 +43,10 @@
     "node_modules"
   ],
   "jest": {
-    "preset": "jest-preset-jolt"
+    "projects": [
+      "test/jest-config.dom.js",
+      "test/jest-config.native.js"
+    ]
   },
   "lint-staged": {
     "*.js": [
@@ -57,6 +65,8 @@
     "lint:cached": "yarn lint -- --cache",
     "precommit": "lint-staged",
     "test": "jest",
+    "test:dom": "jest --config test/jest-config.dom.js",
+    "test:native": "jest --config test/jest-config.native.js",
     "test:build": "yarn run build && yarn run test",
     "test:coverage": "yarn test -- --coverage"
   }
