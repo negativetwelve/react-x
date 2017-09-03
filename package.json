@@ -14,7 +14,7 @@
     "husky": "^0.14.3",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^21.0.0-beta.1",
-    "jest-plugins-react": "^2.0.1",
+    "jest-plugins-react": "^2.1.0",
     "jest-preset-jolt": "^2.8.3",
     "lerna": "^2.0.0",
     "lint-staged": "^4.0.3",
