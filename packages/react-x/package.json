@@ -19,6 +19,7 @@
     "build"
   ],
   "dependencies": {
+    "react-x-render": "^0.2.4",
     "react-x-switch": "^0.2.4"
   },
   "peerDependencies": {
