@@ -13,6 +13,7 @@
     "eslint-config-jolt": "^2.6.1",
     "husky": "^0.14.3",
     "jest": "^21.0.0-beta.1",
+    "jest-plugins-react": "^2.0.1",
     "jest-preset-jolt": "^2.8.3",
     "lerna": "^2.0.0",
     "lint-staged": "^4.0.3",
@@ -38,7 +39,9 @@
     "node_modules"
   ],
   "jest": {
-    "preset": "jest-preset-jolt"
+    "preset": "jest-preset-jolt",
+    "setupTestFrameworkScriptFile": "<rootDir>/test/setup.js",
+    "testEnvironment": "node"
   },
   "lint-staged": {
     "*.js": [

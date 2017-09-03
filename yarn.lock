@@ -3472,6 +3472,12 @@ jest-plugin-for-each@^1.8.3:
     invariant "^2.2.2"
     jest-plugin-set "^1.8.3"
 
+jest-plugin-it-renders@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/jest-plugin-it-renders/-/jest-plugin-it-renders-2.0.1.tgz#1bbb9110edd7ed58479248c1ad2299bf370f0d2a"
+  dependencies:
+    react-test-renderer "^16.0.0-alpha"
+
 jest-plugin-its@^1.8.3:
   version "1.8.3"
   resolved "https://registry.yarnpkg.com/jest-plugin-its/-/jest-plugin-its-1.8.3.tgz#d7c87ced18d1996f894b257c64990384553a499a"
@@ -3482,6 +3488,13 @@ jest-plugin-its@^1.8.3:
 jest-plugin-set@^1.8.3:
   version "1.8.3"
   resolved "https://registry.yarnpkg.com/jest-plugin-set/-/jest-plugin-set-1.8.3.tgz#c608a3c1f71a61059934ef010270ce4245c946b8"
+
+jest-plugins-react@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/jest-plugins-react/-/jest-plugins-react-2.0.1.tgz#9096f8d0409af4734fccea0823b72fbac113f430"
+  dependencies:
+    jest-plugin-it-renders "^2.0.1"
+    jest-plugins "^2.0.1"
 
 jest-plugins-recommended@^1.8.2:
   version "1.8.3"
@@ -3506,6 +3519,10 @@ jest-plugins-rspec@^1.8.3:
 jest-plugins@^1.8.2, jest-plugins@^1.8.3:
   version "1.8.3"
   resolved "https://registry.yarnpkg.com/jest-plugins/-/jest-plugins-1.8.3.tgz#96c0495c2091d3d4284b2d9cabf85d151631fcad"
+
+jest-plugins@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/jest-plugins/-/jest-plugins-2.0.1.tgz#6ac3401b5a551ea55fc0762975ad05f42e6ea7db"
 
 jest-preset-jolt@^2.8.3:
   version "2.8.3"
@@ -4939,6 +4956,13 @@ react-proxy@^1.1.7:
   dependencies:
     lodash "^4.6.1"
     react-deep-force-update "^1.0.0"
+
+react-test-renderer@^16.0.0-alpha:
+  version "16.0.0-beta.5"
+  resolved "https://registry.yarnpkg.com/react-test-renderer/-/react-test-renderer-16.0.0-beta.5.tgz#6169e2ea96e8d21645662b369c23239974cd1f11"
+  dependencies:
+    fbjs "^0.8.9"
+    object-assign "^4.1.0"
 
 react-timer-mixin@^0.13.2:
   version "0.13.3"
