@@ -42,6 +42,12 @@
     "coverage",
     "node_modules"
   ],
+  "jest": {
+    "projects": [
+      "test/jest-config.dom.js",
+      "test/jest-config.native.js"
+    ]
+  },
   "lint-staged": {
     "*.js": [
       "yarn lint"
