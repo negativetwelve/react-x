@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SwitchX.dom with default props with isOn set to false renders snapshot 1`] = `
+<div
+  className="react-ios-switch-Switch-switch"
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundColor": "rgb(229, 229, 229)",
+    }
+  }
+>
+  <div
+    className="react-ios-switch-Switch-offState"
+    style={
+      Object {
+        "WebkitTransform": "scale(1)",
+        "backgroundColor": "white",
+        "msTransform": "scale(1)",
+        "transform": "scale(1)",
+      }
+    }
+  />
+  <div
+    className="react-ios-switch-Switch-handle"
+    onClick={[Function]}
+    onMouseDown={[Function]}
+    style={
+      Object {
+        "WebkitTransform": "translateX(0px)",
+        "backgroundColor": "white",
+        "msTransform": "translateX(0px)",
+        "transform": "translateX(0px)",
+      }
+    }
+  />
+  <input
+    checked={false}
+    className="react-ios-switch-Switch-input"
+    disabled={false}
+    onChange={[Function]}
+    type="checkbox"
+  />
+</div>
+`;
+
+exports[`SwitchX.dom with default props with isOn set to true renders snapshot 1`] = `
+<div
+  className="react-ios-switch-Switch-switch"
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundColor": "rgb(76, 217, 100)",
+    }
+  }
+>
+  <div
+    className="react-ios-switch-Switch-offState"
+    style={
+      Object {
+        "WebkitTransform": "scale(0)",
+        "backgroundColor": "white",
+        "msTransform": "scale(0)",
+        "transform": "scale(0)",
+      }
+    }
+  />
+  <div
+    className="react-ios-switch-Switch-handle"
+    onClick={[Function]}
+    onMouseDown={[Function]}
+    style={
+      Object {
+        "WebkitTransform": "translateX(20px)",
+        "backgroundColor": "white",
+        "msTransform": "translateX(20px)",
+        "transform": "translateX(20px)",
+      }
+    }
+  />
+  <input
+    checked={true}
+    className="react-ios-switch-Switch-input"
+    disabled={false}
+    onChange={[Function]}
+    type="checkbox"
+  />
+</div>
+`;
