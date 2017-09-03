@@ -14,11 +14,42 @@ Install `react-x-switch` using `yarn`:
 yarn add react-x-switch
 ```
 
+## Setup
+
+### React DOM
+
+If using Webpack, you need to add a way to compile the css for the web version. Simply whitelist the `react-ios-switch` module using `include`:
+
+```javascript
+module.exports = {
+  module: {
+    rules: [{
+      test: /\.css$/,
+      include: [
+        'node_modules/react-ios-switch',
+      ],
+      use: ['style-loader', 'css-loader'],
+    }],
+  },
+};
+```
+
 ## Usage
 
 ```javascript
 import Switch from 'react-x-switch';
 ```
+
+## Props
+
+Prop | Type | Required | Description
+-----|------|----------|------------
+`isOn` | boolean | yes | Whether or not the switch is on or off.
+`onChange` | function | no | Callback triggered when the switch is toggled.
+`onTintColor` | string | no | The color the switch should be when turned on.
+`thumbTintColor` | string | no | The color of the tappable part of the switch.
+`tintColor` | string | no | The color the switch should be when turned off.
+`isDisabled` | boolean | no | Whether or not this switch is togglable.
 
 ## Contributing
 
