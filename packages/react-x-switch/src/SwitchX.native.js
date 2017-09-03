@@ -19,15 +19,18 @@ const SwitchX = (props) => (
 // Props
 // --------------------------------------------------
 SwitchX.propTypes = {
-  onChange: PropTypes.func.isRequired,
-  tintColor: PropTypes.string.isRequired,
   onTintColor: PropTypes.string.isRequired,
-  thumbTintColor: PropTypes.string.isRequired,
   isOn: PropTypes.bool.isRequired,
   isDisabled: PropTypes.bool.isRequired,
+  onChange: PropTypes.func,
+  tintColor: PropTypes.string,
+  thumbTintColor: PropTypes.string,
 };
 
 SwitchX.defaultProps = {
+  onChange: null,
+  tintColor: null,
+  thumbTintColor: null,
 };
 
 

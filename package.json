@@ -38,11 +38,6 @@
     "coverage",
     "node_modules"
   ],
-  "jest": {
-    "preset": "jest-preset-jolt",
-    "setupTestFrameworkScriptFile": "<rootDir>/test/setup.js",
-    "testEnvironment": "node"
-  },
   "lint-staged": {
     "*.js": [
       "yarn lint"
@@ -60,6 +55,8 @@
     "lint:cached": "yarn lint -- --cache",
     "precommit": "lint-staged",
     "test": "jest",
+    "test:dom": "jest --config test/jest-config.dom.js",
+    "test:native": "jest --config test/jest-config.native.js",
     "test:build": "yarn run build && yarn run test",
     "test:coverage": "yarn test -- --coverage"
   }

@@ -1,4 +1,5 @@
 // Modules
+import React from 'react';
 import SwitchX from '../SwitchX';
 
 
@@ -6,7 +7,7 @@ import SwitchX from '../SwitchX';
 describe('SwitchX.dom', () => {
   context('with default props', () => {
     forEach({isOn: [true, false]}, () => {
-      itRenders(() => <Switch isOn={isOn} />);
+      itRenders(() => <SwitchX isOn={isOn} />);
     });
   });
 });
