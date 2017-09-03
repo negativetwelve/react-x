@@ -4,7 +4,7 @@
 [![npm](https://img.shields.io/npm/dt/react-x.svg)](https://www.npmjs.com/package/react-x)
 [![npm](https://img.shields.io/npm/l/react-x.svg)](https://github.com/negativetwelve/react-x/blob/master/LICENSE)
 
-Cross-platform React components.
+Cross-platform React components for ReactDOM and React Native.
 
 ## Getting Started
 
