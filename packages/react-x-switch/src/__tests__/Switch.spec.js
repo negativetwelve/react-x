@@ -13,10 +13,10 @@ describe('Switch', () => {
   ));
 
   context('with default props', () => {
-    itRenders(() => render());
+    itShallowRenders(() => render());
   });
 
   forEach({isOn: [true, false]}, () => {
-    itRenders(() => render());
+    itShallowRenders(() => render());
   });
 });
