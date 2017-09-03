@@ -40,8 +40,10 @@ module.exports = {
 
 Component | Version | Description
 ----------|---------|------------
+[`react-x-render`](/packages/react-x-render) | [![npm](https://img.shields.io/npm/v/react-x-render.svg)][npm-render] | Conditional rendering based on if/unless conditions.
 [`react-x-switch`](/packages/react-x-switch) | [![npm](https://img.shields.io/npm/v/react-x-switch.svg)][npm-switch] | Switch component for toggling on/off.
 
+[npm-render]: https://www.npmjs.com/package/react-x-render
 [npm-switch]: https://www.npmjs.com/package/react-x-switch
 
 ## Contributing
