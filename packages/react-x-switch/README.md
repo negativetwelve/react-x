@@ -2,7 +2,7 @@
 
 [![npm](https://img.shields.io/npm/v/react-x-switch.svg)](https://www.npmjs.com/package/react-x-switch)
 [![npm](https://img.shields.io/npm/dt/react-x-switch.svg)](https://www.npmjs.com/package/react-x-switch)
-[![npm](https://img.shields.io/npm/l/react-x-switch.svg)](https://github.com/negativetwelve/handy/blob/master/LICENSE)
+[![npm](https://img.shields.io/npm/l/react-x-switch.svg)](https://github.com/negativetwelve/react-x/blob/master/LICENSE)
 
 Cross-platform Switch component for React and React Native.
 
