@@ -1,6 +1,6 @@
 {
   "name": "react-x",
-  "version": "0.2.4",
+  "version": "0.3.0",
   "description": "Cross-platform React components for ReactDOM and React Native.",
   "license": "MIT",
   "author": "Mark Miyashita <negativetwelve@gmail.com>",
@@ -19,8 +19,8 @@
     "build"
   ],
   "dependencies": {
-    "react-x-render": "^0.2.4",
-    "react-x-switch": "^0.2.4"
+    "react-x-render": "^0.3.0",
+    "react-x-switch": "^0.3.0"
   },
   "peerDependencies": {
     "react": "*"
