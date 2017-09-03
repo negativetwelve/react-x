@@ -1,6 +1,6 @@
 /* eslint-disable brace-style */
 const ReactX = {
-  get Switch() { return require('react-x-switch'); },
+  get Switch() { return require('react-x-switch').default; },
 };
 
 
