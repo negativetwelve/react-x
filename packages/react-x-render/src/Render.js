@@ -11,6 +11,9 @@ const Render = ({if: ifCondition, unless, children}) => {
   }
 };
 
+// --------------------------------------------------
+// Props
+// --------------------------------------------------
 Render.propTypes = {
   if: PropTypes.bool,
   unless: PropTypes.bool,
