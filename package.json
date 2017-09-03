@@ -17,6 +17,10 @@
     "jest-preset-jolt": "^2.8.3",
     "lerna": "^2.0.0",
     "lint-staged": "^4.0.3",
+    "react": "16.0.0-alpha.12",
+    "react-dom": "16.0.0-alpha.12",
+    "react-native": "0.47.2",
+    "react-native-mock": "^0.3.1",
     "rimraf": "^2.6.1"
   },
   "babel": {
