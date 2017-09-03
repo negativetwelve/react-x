@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SwitchX.native with default props with isOn set to false renders snapshot 1`] = `null`;
+
+exports[`SwitchX.native with default props with isOn set to true renders snapshot 1`] = `null`;
