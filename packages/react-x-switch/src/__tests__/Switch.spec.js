@@ -5,9 +5,18 @@ import Switch from '../Switch';
 
 /* eslint-disable no-undef */
 describe('Switch', () => {
+  set('isOn', () => false);
+  action('render', () => (
+    <Switch
+      isOn={isOn}
+    />
+  ));
+
   context('with default props', () => {
-    forEach({isOn: [true, false]}, () => {
-      itRenders(() => <Switch isOn={isOn} />);
-    });
+    itRenders(() => render());
+  });
+
+  forEach({isOn: [true, false]}, () => {
+    itRenders(() => render());
   });
 });
