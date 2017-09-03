@@ -5,9 +5,26 @@ import SwitchX from '../SwitchX';
 
 /* eslint-disable no-undef */
 describe('SwitchX.dom', () => {
+  set('onTintColor', () => '#000000');
+  set('isDisabled', () => false);
+  set('isOn', () => false);
+  action('render', () => (
+    <SwitchX
+      isOn={isOn}
+      isDisabled={isDisabled}
+      onTintColor={onTintColor}
+    />
+  ));
+
   context('with default props', () => {
-    forEach({isOn: [true, false]}, () => {
-      itRenders(() => <SwitchX isOn={isOn} />);
-    });
+    itRenders(() => render());
+  });
+
+  forEach({isOn: [true, false]}, () => {
+    itRenders(() => render());
+  });
+
+  forEach({isDisabled: [true, false]}, () => {
+    itRenders(() => render());
   });
 });
