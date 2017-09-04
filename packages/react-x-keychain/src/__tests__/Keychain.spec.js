@@ -29,7 +29,7 @@ describe('Keychain', () => {
     set('namespace', () => 'com.somecompany');
     set('keychain', () => new Keychain({namespace}));
 
-    describe('initialize', () => {
+    describe('#initialize', () => {
       set('keys', () => []);
       action('initialize', () => keychain.initialize(keys));
 
@@ -48,7 +48,7 @@ describe('Keychain', () => {
           });
 
           context('with primed cache', () => {
-            beforeEach(async () => initialize());
+            beforeEach(() => initialize());
 
             forEach({key: ['my', 'key', 'chain']}, () => {
               it('should set key to undefined', () => {
@@ -57,6 +57,44 @@ describe('Keychain', () => {
             });
           });
         });
+      });
+    });
+
+    context('with initialized keychain', () => {
+      set('keys', () => []);
+      beforeEach(() => keychain.initialize(keys));
+
+      describe('#get', () => {
+        set('key', () => undefined);
+        action('get', () => keychain.get(key));
+
+        context('with empty keychain', () => {
+          forEach({key: [undefined, 'my', 'key']}, () => {
+            it('should return undefined', () => {
+              expect(get()).toEqual(undefined);
+            });
+          });
+        });
+
+        context('with initialized cache', () => {
+          context('with keys in all', () => {
+            set('key', () => 'test');
+            set('all', () => ({test: 'value'}));
+            beforeEach(() => keychain.all = all);
+
+            it('should return the value', () => {
+              expect(get()).toEqual('value');
+            });
+          });
+        });
+      });
+
+      describe('#set', () => {
+        // TODO
+      });
+
+      describe('#reset', () => {
+        // TODO
       });
     });
   });
