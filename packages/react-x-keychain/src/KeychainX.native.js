@@ -29,8 +29,7 @@ class KeychainX {
   async save(all) {
     const password = JSON.stringify(all);
 
-    // NOTE(mark): We use the namespace as both the username and server
-    // values.
+    // NOTE(mark): We use the namespace as both the username and server values.
     return RNKeychain.setGenericPassword(
       this.namespace, // Username
       password, // Password
@@ -42,9 +41,8 @@ class KeychainX {
     // Form a new object with the keys removed.
     const all = omit(this.all, keys);
 
-    // Reset the entire keychain since that's the only native hook
-    // we have. This removes the keys rather than just setting them
-    // to undefined.
+    // Reset the entire keychain since that's the only native hook we have.
+    // This removes the keys rather than just setting them to undefined.
     await RNKeychain.resetGenericPassword(this.namespace);
 
     // Set the saved values on the keychain again.

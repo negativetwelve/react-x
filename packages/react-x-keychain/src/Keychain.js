@@ -57,22 +57,25 @@ class Keychain {
     );
   }
 
-  async getEntries(keys = []) {
-    return this.keychain.getEntries(keys);
-  }
-
   async setEntries(entries = {}) {
     this.assertInitialized('setEntries');
     this.all = {...this.all, ...entries};
     return this.save(this.all);
   }
 
-  async clearKeys(keys = []) {
-    return this.keychain.clearKeys(keys);
+  // --------------------------------------------------
+  // KeychainX
+  // --------------------------------------------------
+  async getEntries(keys = []) {
+    return this.keychain.getEntries(keys);
   }
 
   async save(all = {}) {
     return this.keychain.save(all);
+  }
+
+  async clearKeys(keys = []) {
+    return this.keychain.clearKeys(keys);
   }
 
 }
