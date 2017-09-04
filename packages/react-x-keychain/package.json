@@ -1,7 +1,7 @@
 {
   "name": "react-x-keychain",
   "version": "0.0.0",
-  "description": "Persistent storage for React and React Native apps.",
+  "description": "Persistent storage for ReactDOM (cookies) and React Native (keychain) apps.",
   "license": "MIT",
   "author": "Mark Miyashita <negativetwelve@gmail.com>",
   "homepage": "https://github.com/negativetwelve/react-x",
