@@ -1,7 +1,11 @@
 /* eslint-disable brace-style */
 const ReactX = {
+  // Components
   get Render() { return require('react-x-render').default; },
   get Switch() { return require('react-x-switch').default; },
+
+  // APIs
+  get Keychain() { return require('react-x-keychain').default; },
 };
 
 
