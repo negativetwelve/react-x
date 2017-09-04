@@ -21,4 +21,14 @@ describe('ReactX', () => {
       expect(ReactX[component]).toBeInstanceOf(Function);
     });
   });
+
+  const apis = [
+    'Keychain',
+  ];
+
+  forEach({api: apis}, () => {
+    it('should exist', () => {
+      expect(ReactX[api]).toBeDefined();
+    });
+  });
 });
