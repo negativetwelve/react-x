@@ -36,6 +36,14 @@ module.exports = {
 };
 ```
 
+## APIs
+
+API | Version | Description
+----|---------|------------
+[`react-x-keychain`](/packages/react-x-keychain) | [![npm](https://img.shields.io/npm/v/react-x-keychain.svg)][npm-keychain] | Persistent storage for React DOM (cookies) and React Native (keychain).
+
+[npm-keychain]: https://www.npmjs.com/package/react-x-keychain
+
 ## Components
 
 Component | Version | Description
