@@ -4,7 +4,7 @@
 [![npm](https://img.shields.io/npm/dt/react-x-keychain.svg)](https://www.npmjs.com/package/react-x-keychain)
 [![npm](https://img.shields.io/npm/l/react-x-keychain.svg)](https://github.com/negativetwelve/react-x/blob/master/LICENSE)
 
-Persistent storage for ReactDOM (cookies) and React Native (keychain) apps.
+Cross-platform persistent storage for ReactDOM (cookies) and React Native (keychain) apps.
 
 ## Getting Started
 
@@ -13,6 +13,16 @@ Install `react-x-keychain` using `yarn`:
 ```shell
 yarn add react-x-keychain
 ```
+
+## Setup
+
+### React DOM
+
+Nothing else is required to use this with `react-dom`. However, note that this keychain module uses cookies to store the data. Sensitive data should NOT be stored using this module as it is readable by anyone with access to the cookies. Use it for whatever you would normally store in cookies, ex: session tokens, etc.
+
+### React Native
+
+This module is backed on the native side by [`react-native-keychain`](https://github.com/oblador/react-native-keychain). Please follow the installation instructions located [here](https://github.com/oblador/react-native-keychain#installation).
 
 ## Usage
 
