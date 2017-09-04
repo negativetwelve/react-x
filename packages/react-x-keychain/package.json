@@ -21,6 +21,7 @@
     "build"
   ],
   "dependencies": {
+    "cookies-js": "^1.2.3",
     "invariant": "^2.2.2"
   },
   "peerDependencies": {
