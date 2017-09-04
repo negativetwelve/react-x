@@ -4,5 +4,7 @@ import './setup';
 jest.mock('react-native', () => ({
   // TODO(mark): Proper component mocks are much needed and all snapshots
   // will need to be updated once this mock is complete.
-  Switch: () => null,
+
+  Switch: () => null, // react-x-switch
+  NativeModules: {}, // react-x-keychain
 }));
