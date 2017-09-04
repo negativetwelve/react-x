@@ -21,6 +21,7 @@
     "build"
   ],
   "dependencies": {
+    "invariant": "^2.2.2"
   },
   "peerDependencies": {
     "react": "*"
