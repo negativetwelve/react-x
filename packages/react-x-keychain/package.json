@@ -22,7 +22,9 @@
   ],
   "dependencies": {
     "cookies-js": "^1.2.3",
-    "invariant": "^2.2.2"
+    "invariant": "^2.2.2",
+    "lodash.omit": "^4.5.0",
+    "lodash.pick": "^4.4.0"
   },
   "peerDependencies": {
     "react": "*"
