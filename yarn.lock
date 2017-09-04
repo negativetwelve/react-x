@@ -5214,6 +5214,10 @@ react-ios-switch@^0.1.12:
     dynamics.js "^1.1.5"
     invariant "^2.2.2"
 
+react-native-keychain@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/react-native-keychain/-/react-native-keychain-1.2.1.tgz#6b2bed32ca0460d641974193715d18c808b0f12f"
+
 react-native@0.47.2:
   version "0.47.2"
   resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.47.2.tgz#5e55cd84e4947123c86d36ea6f95ab9ed2d0cb19"
