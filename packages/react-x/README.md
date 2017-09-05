@@ -14,13 +14,27 @@ Install `react-x` using `yarn`:
 yarn add react-x
 ```
 
+## Setup
+
+### React Native
+
+No additional setup required for react-native.
+
+### React DOM
+
+If using Webpack, you need to add the `.dom.js` extension to the extensions array.
+
+```javascript
+module.exports = {
+  resolve: {
+    extensions: ['.dom.js', '.js', '.json'],
+  },
+};
+```
+
 ## Motivation
 
-TODO(mark)
-
 ## Usage
-
-TODO(mark)
 
 ## Contributing
 

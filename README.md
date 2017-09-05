@@ -22,7 +22,7 @@ yarn add react-x
 
 ### React Native
 
-TODO
+No additional setup required for react-native.
 
 ### React DOM
 
