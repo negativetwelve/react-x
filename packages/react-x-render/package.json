@@ -1,6 +1,6 @@
 {
   "name": "react-x-render",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "Render React components conditionally using if and unless.",
   "license": "MIT",
   "author": "Mark Miyashita <negativetwelve@gmail.com>",
