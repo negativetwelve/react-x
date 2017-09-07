@@ -46,7 +46,7 @@ class KeychainX {
     await RNKeychain.resetGenericPassword(this.namespace);
 
     // Set the saved values on the keychain again.
-    return this.saveAll(all);
+    return this.save(all);
   }
 
 }
