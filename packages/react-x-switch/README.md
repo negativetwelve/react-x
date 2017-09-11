@@ -14,26 +14,6 @@ Install `react-x-switch` using `yarn`:
 yarn add react-x-switch
 ```
 
-## Setup
-
-### React DOM
-
-If using Webpack, you need to add a way to compile the css for the web version. Simply whitelist the `react-ios-switch` module using `include`:
-
-```javascript
-module.exports = {
-  module: {
-    rules: [{
-      test: /\.css$/,
-      include: [
-        'node_modules/react-ios-switch',
-      ],
-      use: ['style-loader', 'css-loader'],
-    }],
-  },
-};
-```
-
 ## Usage
 
 ```javascript
