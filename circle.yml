@@ -8,7 +8,7 @@ dependencies:
   cache_directories:
     - ~/.cache/yarn
   override:
-    - sudo apt-get update && sudo apt-get install yarn
+    - curl -o- -L https://yarnpkg.com/install.sh | bash
     - yarn install --force
     - yarn run clean
     - yarn run build
