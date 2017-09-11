@@ -5222,7 +5222,7 @@ react-dom@16.0.0-alpha.12:
     object-assign "^4.1.0"
     prop-types "^15.5.6"
 
-react-ios-switch@^0.1.12:
+react-ios-switch@^0.1.18:
   version "0.1.18"
   resolved "https://registry.yarnpkg.com/react-ios-switch/-/react-ios-switch-0.1.18.tgz#f68371157ca83796610dc1a60a5f6cbf5742c65a"
   dependencies:
