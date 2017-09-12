@@ -10,8 +10,8 @@ dependencies:
   override:
     - curl -o- -L https://yarnpkg.com/install.sh | bash
     - yarn install --force
-    - yarn run clean
-    - yarn run build
+    - yarn clean
+    - yarn build
 
 test:
   pre:
