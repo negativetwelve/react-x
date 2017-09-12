@@ -21,7 +21,7 @@
   ],
   "dependencies": {
     "prop-types": "^15.5.10",
-    "react-ios-switch": "^0.1.18"
+    "react-ios-switch": "^0.1.19"
   },
   "peerDependencies": {
     "react": "*"
