@@ -14,10 +14,9 @@ class Keychain {
   // Initialize
   // --------------------------------------------------
   constructor({namespace}) {
-    this.namespace = namespace;
     this.initialized = false;
     this.all = {};
-    this.keychain = new KeychainX();
+    this.keychain = new KeychainX({namespace});
   }
 
   async initialize(keys) {
