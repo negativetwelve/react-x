@@ -10,6 +10,10 @@ import pick from 'lodash.pick';
  */
 class KeychainX {
 
+  constructor({namespace}) {
+    this.namespace = namespace;
+  }
+
   async getEntries(keys) {
     try {
       // We store all key/values in the password field.
