@@ -1,6 +1,6 @@
 {
   "name": "react-x-switch",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "description": "Cross-platform Switch component for React and React Native.",
   "license": "MIT",
   "author": "Mark Miyashita <negativetwelve@gmail.com>",
