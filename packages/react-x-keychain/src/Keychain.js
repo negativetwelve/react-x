@@ -13,9 +13,10 @@ class Keychain {
   // --------------------------------------------------
   // Initialize
   // --------------------------------------------------
-  constructor({namespace}) {
+  constructor({namespace, domain, expires, path = '/', secure = false}) {
     this.initialized = false;
     this.all = {};
+    this.options = {domain, expires, path, secure};
     this.keychain = new KeychainX({namespace});
   }
 
@@ -70,7 +71,7 @@ class Keychain {
   }
 
   async save(all = {}) {
-    return this.keychain.save(all);
+    return this.keychain.save(all, this.options);
   }
 
   async clearKeys(keys = []) {
