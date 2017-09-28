@@ -16,8 +16,10 @@ class KeychainX {
     return keys.reduce(accumulate, {});
   }
 
-  async save(all = {}) {
-    return Object.entries(all).forEach(([key, value]) => Cookies.set(key, value));
+  async save(all = {}, options = {}) {
+    return Object.entries(all).forEach(([key, value]) => {
+      Cookies.set(key, value, options);
+    });
   }
 
   async clearKeys(keys = []) {
