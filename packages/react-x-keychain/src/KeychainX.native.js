@@ -41,15 +41,12 @@ class KeychainX {
     );
   }
 
-  async clearKeys(keys) {
-    // Form a new object with the keys removed.
-    const all = omit(this.all, keys);
-
+  async clearKeys(keys, all = {}) {
     // Reset the entire keychain since that's the only native hook we have.
     // This removes the keys rather than just setting them to undefined.
     await RNKeychain.resetGenericPassword(this.namespace);
 
-    // Set the saved values on the keychain again.
+    // Set the remaining values on the keychain again.
     return this.save(all);
   }
 

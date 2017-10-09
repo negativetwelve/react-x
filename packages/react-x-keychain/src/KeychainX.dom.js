@@ -22,7 +22,7 @@ class KeychainX {
     });
   }
 
-  async clearKeys(keys = []) {
+  async clearKeys(keys = [], all = {}) {
     return keys.map((key) => Cookies.expire(key));
   }
 

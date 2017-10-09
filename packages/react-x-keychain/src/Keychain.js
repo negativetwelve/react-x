@@ -1,5 +1,6 @@
 // Libraries
 import invariant from 'invariant';
+import omit from 'lodash.omit';
 
 // Modules
 import KeychainX from './KeychainX';
@@ -40,11 +41,7 @@ class Keychain {
 
   async reset() {
     this.assertInitialized('reset');
-    const keys = Object.keys(this.all);
-
-    // Reset the cache before clearing the actual keychain.
-    this.all = {};
-    return this.clearKeys(keys);
+    return this.clearKeys(Object.keys(this.all));
   }
 
   // --------------------------------------------------
@@ -75,7 +72,9 @@ class Keychain {
   }
 
   async clearKeys(keys = []) {
-    return this.keychain.clearKeys(keys);
+    // Modify the cache before clearing the actual keychain.
+    this.all = omit(this.all, keys);
+    return this.keychain.clearKeys(keys, this.all);
   }
 
 }
