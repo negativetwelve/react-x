@@ -22,8 +22,8 @@ class KeychainX {
     });
   }
 
-  async clearKeys(keys = [], all = {}) {
-    return keys.map((key) => Cookies.expire(key));
+  async clearKeys(keys = [], all = {}, options = {}) {
+    return keys.map((key) => Cookies.expire(key, options));
   }
 
 }

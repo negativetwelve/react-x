@@ -74,7 +74,7 @@ class Keychain {
   async clearKeys(keys = []) {
     // Modify the cache before clearing the actual keychain.
     this.all = omit(this.all, keys);
-    return this.keychain.clearKeys(keys, this.all);
+    return this.keychain.clearKeys(keys, this.all, this.options);
   }
 
 }
