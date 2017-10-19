@@ -1,4 +1,3 @@
-
 # react-x-clipboard
 
 [![npm](https://img.shields.io/npm/v/react-x-clipboard.svg)](https://www.npmjs.com/package/react-x-clipboard)
