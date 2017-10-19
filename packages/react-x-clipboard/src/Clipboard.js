@@ -1,1 +1,1 @@
-export ClipboardX from './ClipboardX';
+export default from './ClipboardX';
