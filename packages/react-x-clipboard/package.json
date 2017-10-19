@@ -1,34 +1,30 @@
 {
-  "name": "react-x-keychain",
-  "version": "0.5.5",
-  "description": "Cross-platform persistent storage for ReactDOM (cookies) and React Native (keychain) apps.",
+  "name": "react-x-clipboard",
+  "version": "0.0.0",
+  "description": "Cross-platform clipboard for ReactDOM and React Native apps.",
   "license": "MIT",
   "author": "Mark Miyashita <negativetwelve@gmail.com>",
   "homepage": "https://github.com/negativetwelve/react-x",
-  "repository": "https://github.com/negativetwelve/react-x/tree/master/packages/react-x-keychain",
+  "repository": "https://github.com/negativetwelve/react-x/tree/master/packages/react-x-clipboard",
   "keywords": [
-    "cookies",
+    "clipboard",
+    "copy",
     "cross-platform",
-    "keychain",
+    "paste",
     "platform",
     "react",
     "react-native",
     "react-x",
     "react-x-api"
   ],
-  "main": "build/Keychain",
+  "main": "build/Clipboard",
   "files": [
     "build"
   ],
   "dependencies": {
-    "cookies-js": "^1.2.3",
-    "invariant": "^2.2.2",
-    "lodash.omit": "^4.5.0",
-    "lodash.pick": "^4.4.0",
-    "react-native-keychain": "2.0.0-rc"
+    "copy-to-clipboard": "^3.0.8"
   },
   "peerDependencies": {
-    "react": "*",
     "react-native": "*"
   },
   "scripts": {

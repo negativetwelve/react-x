@@ -5,6 +5,7 @@ const ReactX = {
   get Switch() { return require('react-x-switch').default; },
 
   // APIs
+  get Clipboard() { return require('react-x-clipboard').default; },
   get Keychain() { return require('react-x-keychain').default; },
 };
 
