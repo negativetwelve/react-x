@@ -19,6 +19,7 @@
     "build"
   ],
   "dependencies": {
+    "react-x-clipboard": "^0.6.0",
     "react-x-keychain": "^0.6.0",
     "react-x-render": "^0.6.0",
     "react-x-switch": "^0.6.0"
