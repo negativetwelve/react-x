@@ -4,7 +4,7 @@
 [![npm](https://img.shields.io/npm/dt/react-x-clipboard.svg)](https://www.npmjs.com/package/react-x-clipboard)
 [![npm](https://img.shields.io/npm/l/react-x-clipboard.svg)](https://github.com/negativetwelve/react-x/blob/master/LICENSE)
 
-Cross-platform clipboard functionality for ReactDOM and React Native apps.
+Cross-platform clipboard for ReactDOM and React Native apps.
 
 ## Getting Started
 
