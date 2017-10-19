@@ -23,6 +23,7 @@ describe('ReactX', () => {
   });
 
   const apis = [
+    'Clipboard',
     'Keychain',
   ];
 
