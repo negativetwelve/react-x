@@ -1,0 +1,1 @@
+export ClipboardX from './ClipboardX';
