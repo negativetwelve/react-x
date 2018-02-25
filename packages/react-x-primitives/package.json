@@ -1,0 +1,33 @@
+{
+  "name": "react-x-primitives",
+  "version": "0.6.3",
+  "description": "",
+  "license": "MIT",
+  "author": "Mark Miyashita <negativetwelve@gmail.com>",
+  "homepage": "https://github.com/negativetwelve/react-x",
+  "repository": "https://github.com/negativetwelve/react-x/tree/master/packages/react-x-primitives",
+  "keywords": [
+    "component",
+    "react",
+    "react-native",
+    "react-x",
+    "react-x-component"
+  ],
+  "main": "build/Primitives",
+  "files": [
+    "build"
+  ],
+  "dependencies": {
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
+    "react-primitives": "0.5.0"
+  },
+  "peerDependencies": {
+    "react": "*"
+  },
+  "scripts": {
+    "build": "babel src --out-dir build --ignore \"**/__tests__/**\"",
+    "clean": "rimraf build",
+    "prepublishOnly": "yarn run clean && yarn run build"
+  }
+}
