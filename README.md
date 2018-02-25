@@ -42,18 +42,21 @@ API | Version | Description
 ----|---------|------------
 [`react-x-clipboard`](/packages/react-x-clipboard) | [![npm](https://img.shields.io/npm/v/react-x-clipboard.svg)][npm-clipboard] | Clipboard module for React DOM and React Native.
 [`react-x-keychain`](/packages/react-x-keychain) | [![npm](https://img.shields.io/npm/v/react-x-keychain.svg)][npm-keychain] | Persistent storage for React DOM (cookies) and React Native (keychain).
+[`react-x-styled`](/packages/react-x-styled) | [![npm](https://img.shields.io/npm/v/react-x-styled.svg)][npm-styled] | Cross-platform functions to style components in React and React Native.
 
 [npm-clipboard]: https://www.npmjs.com/package/react-x-clipboard
 [npm-keychain]: https://www.npmjs.com/package/react-x-keychain
+[npm-styled]: https://www.npmjs.com/package/react-x-styled
 
 ## Components
 
 Component | Version | Description
 ----------|---------|------------
-[`react-x-primitives`](/packages/react-x-primitives) | [![npm](https://img.shields.io/npm/v/react-x-primitives.svg)][npm-render] | Set of primitive components to render across targets.
+[`react-x-primitives`](/packages/react-x-primitives) | [![npm](https://img.shields.io/npm/v/react-x-primitives.svg)][npm-primitives] | Set of primitive components to render across targets.
 [`react-x-render`](/packages/react-x-render) | [![npm](https://img.shields.io/npm/v/react-x-render.svg)][npm-render] | Conditional rendering based on if/unless conditions.
 [`react-x-switch`](/packages/react-x-switch) | [![npm](https://img.shields.io/npm/v/react-x-switch.svg)][npm-switch] | Switch component for toggling on/off.
 
+[npm-primitives]: https://www.npmjs.com/package/react-x-primitives
 [npm-render]: https://www.npmjs.com/package/react-x-render
 [npm-switch]: https://www.npmjs.com/package/react-x-switch
 

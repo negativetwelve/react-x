@@ -1,29 +1,23 @@
 {
-  "name": "react-x-primitives",
+  "name": "react-x-styled",
   "version": "0.8.0",
-  "description": "Set of primitive components to render React and React Native.",
+  "description": "Cross-platform functions to style components in React and React Native.",
   "license": "MIT",
   "author": "Mark Miyashita <negativetwelve@gmail.com>",
   "homepage": "https://github.com/negativetwelve/react-x",
-  "repository": "https://github.com/negativetwelve/react-x/tree/master/packages/react-x-primitives",
+  "repository": "https://github.com/negativetwelve/react-x/tree/master/packages/react-x-styled",
   "keywords": [
     "component",
     "react",
     "react-native",
-    "react-x",
-    "react-x-component"
+    "react-x"
   ],
-  "main": "build/Primitives",
+  "main": "build/Styled",
   "files": [
     "build"
   ],
   "dependencies": {
-    "react": "16.2.0",
-    "react-dom": "16.2.0",
-    "react-native": "0.53.3",
-    "react-native-svg": "6.2.2",
-    "react-primitives": "0.5.0",
-    "react-primitives-svg": "0.0.3"
+    "styled-components": "3.1.6"
   },
   "peerDependencies": {
     "react": "*"

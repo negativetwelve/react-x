@@ -4,7 +4,7 @@
 [![npm](https://img.shields.io/npm/dt/react-x-primitives.svg)](https://www.npmjs.com/package/react-x-primitives)
 [![npm](https://img.shields.io/npm/l/react-x-primitives.svg)](https://github.com/negativetwelve/react-x/blob/master/LICENSE)
 
-Set of primitive components to render across targets.
+Set of primitive components to render React and React Native.
 
 NOTE: This package is a combination of many other open-source packages that makes creating universal components easier.
 
