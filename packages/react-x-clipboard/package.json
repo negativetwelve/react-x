@@ -24,9 +24,6 @@
   "dependencies": {
     "copy-to-clipboard": "^3.0.8"
   },
-  "peerDependencies": {
-    "react-native": "*"
-  },
   "scripts": {
     "build": "babel src --out-dir build --ignore \"**/__tests__/**\"",
     "clean": "rimraf build",

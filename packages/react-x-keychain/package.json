@@ -27,10 +27,6 @@
     "lodash.pick": "^4.4.0",
     "react-native-keychain": "2.0.0-rc"
   },
-  "peerDependencies": {
-    "react": "*",
-    "react-native": "*"
-  },
   "scripts": {
     "build": "babel src --out-dir build --ignore \"**/__tests__/**\"",
     "clean": "rimraf build",

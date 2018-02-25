@@ -19,9 +19,6 @@
   "dependencies": {
     "styled-components": "3.1.6"
   },
-  "peerDependencies": {
-    "react": "*"
-  },
   "scripts": {
     "build": "babel src --out-dir build --ignore \"**/__tests__/**\"",
     "clean": "rimraf build",
