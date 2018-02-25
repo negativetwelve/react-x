@@ -949,9 +949,9 @@ babel-preset-jest@21.0.0-beta.1:
   dependencies:
     babel-plugin-jest-hoist "21.0.0-beta.1"
 
-babel-preset-jolt@^2.8.0:
-  version "2.8.4"
-  resolved "https://registry.yarnpkg.com/babel-preset-jolt/-/babel-preset-jolt-2.8.4.tgz#f92b07cac7d4789a6558b6efd1eaf72a88e2f3e3"
+babel-preset-jolt@^2.8.7:
+  version "2.8.7"
+  resolved "https://registry.yarnpkg.com/babel-preset-jolt/-/babel-preset-jolt-2.8.7.tgz#1f6b2eb5a7f5b305b2c3d71cf73e8138378806b0"
   dependencies:
     babel-plugin-transform-builtin-extend "^1.1.2"
     babel-plugin-transform-class-properties "^6.24.1"
