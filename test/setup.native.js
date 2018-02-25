@@ -8,3 +8,6 @@ jest.mock('react-native', () => ({
   Switch: () => null, // react-x-switch
   NativeModules: {}, // react-x-keychain
 }));
+
+// Mock out react-native-svg since we don't have the native components.
+jest.mock('react-native-svg', () => () => null);

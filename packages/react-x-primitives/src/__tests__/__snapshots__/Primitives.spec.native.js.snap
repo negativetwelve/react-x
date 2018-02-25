@@ -6,7 +6,7 @@ exports[`Primitives Image renders snapshot 1`] = `
 />
 `;
 
-exports[`Primitives SVG renders snapshot 1`] = `<svg />`;
+exports[`Primitives SVG renders snapshot 1`] = `null`;
 
 exports[`Primitives Text renders snapshot 1`] = `
 <div
