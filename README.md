@@ -50,6 +50,7 @@ API | Version | Description
 
 Component | Version | Description
 ----------|---------|------------
+[`react-x-primitives`](/packages/react-x-primitives) | [![npm](https://img.shields.io/npm/v/react-x-primitives.svg)][npm-render] | Set of primitive components to render across targets.
 [`react-x-render`](/packages/react-x-render) | [![npm](https://img.shields.io/npm/v/react-x-render.svg)][npm-render] | Conditional rendering based on if/unless conditions.
 [`react-x-switch`](/packages/react-x-switch) | [![npm](https://img.shields.io/npm/v/react-x-switch.svg)][npm-switch] | Switch component for toggling on/off.
 

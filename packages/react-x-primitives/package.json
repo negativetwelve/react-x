@@ -1,29 +1,24 @@
 {
-  "name": "react-x",
+  "name": "react-x-primitives",
   "version": "0.6.3",
-  "description": "Cross-platform React components for ReactDOM and React Native.",
+  "description": "",
   "license": "MIT",
   "author": "Mark Miyashita <negativetwelve@gmail.com>",
   "homepage": "https://github.com/negativetwelve/react-x",
-  "repository": "https://github.com/negativetwelve/react-x/tree/master/packages/react-x",
+  "repository": "https://github.com/negativetwelve/react-x/tree/master/packages/react-x-primitives",
   "keywords": [
-    "components",
-    "cross-platform",
-    "platform",
+    "component",
     "react",
     "react-native",
-    "react-x"
+    "react-x",
+    "react-x-component"
   ],
-  "main": "build/react-x",
+  "main": "build/Primitives",
   "files": [
     "build"
   ],
   "dependencies": {
-    "react-x-clipboard": "^0.6.3",
-    "react-x-keychain": "^0.6.3",
-    "react-x-primitives": "^0.6.3",
-    "react-x-render": "^0.6.3",
-    "react-x-switch": "^0.6.3"
+    "react-primitives": "0.5.0"
   },
   "peerDependencies": {
     "react": "*"
