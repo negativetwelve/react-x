@@ -6,6 +6,11 @@ import ReactX from '../react-x';
 /* eslint-disable no-undef */
 describe('ReactX', () => {
   const components = [
+    // TODO(mark): Can't test SVG because it is a set of components.
+    'Image',
+    'Text',
+    'View',
+
     'Render',
     'Switch',
   ];
@@ -23,8 +28,12 @@ describe('ReactX', () => {
   });
 
   const apis = [
+    'Animated',
+    'StyleSheet',
+
     'Clipboard',
     'Keychain',
+    'Styled',
   ];
 
   forEach({api: apis}, () => {
