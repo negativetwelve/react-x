@@ -21,7 +21,6 @@
   "dependencies": {
     "react-x-clipboard": "^0.6.3",
     "react-x-keychain": "^0.6.3",
-    "react-x-primitives": "^0.6.3",
     "react-x-render": "^0.6.3",
     "react-x-switch": "^0.6.3"
   },

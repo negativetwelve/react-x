@@ -60,7 +60,7 @@
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "build": "lerna run build",
-    "clean": "lerna clean --yes && lerna run clean",
+    "clean": "lerna run clean",
     "coveralls": "cat ./coverage/lcov.info | coveralls",
     "lint": "eslint .",
     "lint:cached": "yarn lint --cache",
