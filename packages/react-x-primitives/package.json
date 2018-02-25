@@ -18,6 +18,8 @@
     "build"
   ],
   "dependencies": {
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
     "react-primitives": "0.5.0"
   },
   "peerDependencies": {
