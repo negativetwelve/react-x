@@ -1,11 +1,11 @@
 {
-  "name": "react-x-primitives",
+  "name": "react-x-svg",
   "version": "1.2.0",
-  "description": "Set of primitive components to render React and React Native.",
+  "description": "Cross-platform SVG support for React and React Native.",
   "license": "MIT",
   "author": "Mark Miyashita <negativetwelve@gmail.com>",
   "homepage": "https://github.com/negativetwelve/react-x",
-  "repository": "https://github.com/negativetwelve/react-x/tree/master/packages/react-x-primitives",
+  "repository": "https://github.com/negativetwelve/react-x/tree/master/packages/react-x-svg",
   "keywords": [
     "component",
     "react",
@@ -13,12 +13,13 @@
     "react-x",
     "react-x-component"
   ],
-  "main": "build/Primitives",
+  "main": "build/SVG",
   "files": [
     "build"
   ],
   "dependencies": {
-    "react-primitives": "0.5.0"
+    "react-native-svg": "6.2.2",
+    "react-primitives-svg": "0.0.3"
   },
   "peerDependencies": {
     "react": "*"
