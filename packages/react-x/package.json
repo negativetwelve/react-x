@@ -1,6 +1,6 @@
 {
   "name": "react-x",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Cross-platform React interfaces for ReactDOM and React Native.",
   "license": "MIT",
   "author": "Mark Miyashita <negativetwelve@gmail.com>",
@@ -20,11 +20,11 @@
     "components.js"
   ],
   "dependencies": {
-    "react-x-clipboard": "^1.1.0",
-    "react-x-components": "^1.1.0",
-    "react-x-keychain": "^1.1.0",
-    "react-x-primitives": "^1.1.0",
-    "react-x-styled": "^1.1.0"
+    "react-x-clipboard": "^1.2.0",
+    "react-x-components": "^1.2.0",
+    "react-x-keychain": "^1.2.0",
+    "react-x-primitives": "^1.2.0",
+    "react-x-styled": "^1.2.0"
   },
   "peerDependencies": {
     "react": "*"

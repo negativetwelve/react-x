@@ -1,6 +1,6 @@
 {
   "name": "react-x-primitives",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Set of primitive components to render React and React Native.",
   "license": "MIT",
   "author": "Mark Miyashita <negativetwelve@gmail.com>",

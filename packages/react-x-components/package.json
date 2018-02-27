@@ -1,6 +1,6 @@
 {
   "name": "react-x-components",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Cross-platform React components for ReactDOM and React Native.",
   "license": "MIT",
   "author": "Mark Miyashita <negativetwelve@gmail.com>",
@@ -19,9 +19,9 @@
     "build"
   ],
   "dependencies": {
-    "react-x-primitives": "^1.1.0",
-    "react-x-render": "^1.1.0",
-    "react-x-switch": "^1.1.0"
+    "react-x-primitives": "^1.2.0",
+    "react-x-render": "^1.2.0",
+    "react-x-switch": "^1.2.0"
   },
   "peerDependencies": {
     "react": "*"
