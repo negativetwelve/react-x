@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SVG Circle renders snapshot 1`] = `null`;
+
+exports[`SVG Line renders snapshot 1`] = `null`;
+
+exports[`SVG Rect renders snapshot 1`] = `null`;
