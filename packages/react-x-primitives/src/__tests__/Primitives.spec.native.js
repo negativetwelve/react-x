@@ -1,6 +1,6 @@
 // Modules
 import React from 'react';
-import {View, Text, Image, SVG, StyleSheet, Animated} from '../Primitives';
+import {View, Text, Image, StyleSheet, Animated} from '../Primitives';
 
 /* eslint-disable no-undef */
 describe('Primitives', () => {
@@ -14,9 +14,5 @@ describe('Primitives', () => {
 
   describe('Image', () => {
     itRenders(() => <Image />);
-  });
-
-  describe('SVG', () => {
-    itRenders(() => <SVG.Svg />);
   });
 });
