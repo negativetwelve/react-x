@@ -21,11 +21,10 @@
   ],
   "dependencies": {
     "react-x-clipboard": "^1.1.0",
+    "react-x-components": "^1.1.0",
     "react-x-keychain": "^1.1.0",
     "react-x-primitives": "^1.1.0",
-    "react-x-render": "^1.1.0",
-    "react-x-styled": "^1.1.0",
-    "react-x-switch": "^1.1.0"
+    "react-x-styled": "^1.1.0"
   },
   "peerDependencies": {
     "react": "*"
