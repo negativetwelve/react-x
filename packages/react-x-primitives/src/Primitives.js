@@ -1,1 +1,11 @@
-export {View, Text, Image, StyleSheet, Animated} from 'react-primitives';
+export {
+  // APIs
+  Animated,
+  StyleSheet,
+
+  // Components
+  Image,
+  Text,
+  Touchable,
+  View,
+} from 'react-primitives';

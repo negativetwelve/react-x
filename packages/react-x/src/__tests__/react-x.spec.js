@@ -27,6 +27,7 @@ describe('ReactX', () => {
       'Render',
       'Switch',
       'Text',
+      'Touchable',
       'View',
     ];
 
