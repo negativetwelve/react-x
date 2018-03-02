@@ -13,5 +13,6 @@ module.exports = {
   get SVG() { return require('react-x-svg').default; },
   get Switch() { return require('react-x-switch').default; },
   get Text() { return require('react-x-primitives').Text; },
+  get Touchable() { return require('react-x-primitives').Touchable; },
   get View() { return require('react-x-primitives').View; },
 };
