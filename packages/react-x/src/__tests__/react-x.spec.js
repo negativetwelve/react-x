@@ -8,7 +8,6 @@ describe('ReactX', () => {
     const apis = [
       'Animated',
       'Clipboard',
-      'Components',
       'Keychain',
       'Styled',
       'StyleSheet',
