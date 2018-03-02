@@ -50,17 +50,13 @@ API | Version | Description
 
 ## Components
 
-See the [`react-x-components`](/packages/react-x-components) for a full list of cross-platform components built with `react-x`.
-
 Component | Version | Description
 ----------|---------|------------
-[`react-x-components`](/packages/react-x-components) | [![npm](https://img.shields.io/npm/v/react-x-components.svg)][npm-components] | All cross-platform components developed for react-x.
 [`react-x-primitives`](/packages/react-x-primitives) | [![npm](https://img.shields.io/npm/v/react-x-primitives.svg)][npm-primitives] | Set of primitive components to render across targets.
 [`react-x-render`](/packages/react-x-render) | [![npm](https://img.shields.io/npm/v/react-x-render.svg)][npm-render] | Conditional rendering based on if/unless conditions.
 [`react-x-svg`](/packages/react-x-svg) | [![npm](https://img.shields.io/npm/v/react-x-svg.svg)][npm-svg] | Cross-platform SVG support for ReactDOM and React Native.
 [`react-x-switch`](/packages/react-x-switch) | [![npm](https://img.shields.io/npm/v/react-x-switch.svg)][npm-switch] | Switch component for toggling on/off.
 
-[npm-components]: https://www.npmjs.com/package/react-x-components
 [npm-primitives]: https://www.npmjs.com/package/react-x-primitives
 [npm-render]: https://www.npmjs.com/package/react-x-render
 [npm-svg]: https://www.npmjs.com/package/react-x-svg
