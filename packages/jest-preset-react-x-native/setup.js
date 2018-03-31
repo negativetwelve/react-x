@@ -14,6 +14,7 @@ jest.mock('react-native', () => ({
   // will need to be updated once this mock is complete.
 
   Switch: () => null, // react-x-switch
+  TextInput: () => null, // react-x-text-input
   NativeModules: {}, // react-x-keychain
 }));
 
