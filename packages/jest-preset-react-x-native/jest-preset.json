@@ -1,5 +1,4 @@
 {
-  "preset": "jest-preset-jolt",
   "moduleFileExtensions": ["js", "native.js"],
   "setupTestFrameworkScriptFile": "jest-preset-react-x-native/setup.js",
   "testEnvironment": "node",

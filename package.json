@@ -13,7 +13,6 @@
     "eslint-config-jolt": "^2.6.1",
     "eslint-plugin-jest": "^21.0.2",
     "husky": "^0.14.3",
-    "identity-obj-proxy": "^3.0.0",
     "jest": "21.2.1",
     "jest-plugins-react": "^2.1.0",
     "jest-preset-jolt": "^2.8.3",
