@@ -3,7 +3,7 @@
   "moduleNameMapper": {
     "\\.(css|less|sass)$": "identity-obj-proxy"
   },
-  "setupTestFrameworkScriptFile": "<rootDir>/test/setup.dom.js",
+  "setupTestFrameworkScriptFile": "jest-preset-react-x-dom/setup.js",
   "testEnvironment": "node",
   "testMatch": ["**/?(*.)spec.js", "**/?(*.)spec.dom.js"]
 }
