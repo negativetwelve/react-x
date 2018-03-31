@@ -42,11 +42,9 @@ API | Version | Description
 ----|---------|------------
 [`react-x-clipboard`](/packages/react-x-clipboard) | [![npm](https://img.shields.io/npm/v/react-x-clipboard.svg)][npm-clipboard] | Clipboard module for React DOM and React Native.
 [`react-x-keychain`](/packages/react-x-keychain) | [![npm](https://img.shields.io/npm/v/react-x-keychain.svg)][npm-keychain] | Persistent storage for React DOM (cookies) and React Native (keychain).
-[`react-x-styled`](/packages/react-x-styled) | [![npm](https://img.shields.io/npm/v/react-x-styled.svg)][npm-styled] | Cross-platform functions to style components in React and React Native.
 
 [npm-clipboard]: https://www.npmjs.com/package/react-x-clipboard
 [npm-keychain]: https://www.npmjs.com/package/react-x-keychain
-[npm-styled]: https://www.npmjs.com/package/react-x-styled
 
 ## Components
 
