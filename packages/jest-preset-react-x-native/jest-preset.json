@@ -1,7 +1,7 @@
 {
   "preset": "jest-preset-jolt",
   "moduleFileExtensions": ["js", "native.js"],
-  "setupTestFrameworkScriptFile": "<rootDir>/node_modules/jest-preset-react-x-native/setup.js",
+  "setupTestFrameworkScriptFile": "jest-preset-react-x-native/setup.js",
   "testEnvironment": "node",
   "testMatch": ["**/?(*.)spec.js", "**/?(*.)spec.native.js"],
   "transformIgnorePatterns": [
