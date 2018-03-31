@@ -1,4 +1,12 @@
-import './setup';
+require('jest-plugins')([
+  'jest-plugins-react',
+  'jest-plugins-recommended',
+]);
+
+// Hack for react-art referencing the document object.
+global.document = {
+  createElement: () => null,
+};
 
 // Need to mock react-native. react-native-mock doesn't work with 0.47+.
 jest.mock('react-native', () => ({
