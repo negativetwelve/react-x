@@ -1,0 +1,28 @@
+{
+  "name": "jest-preset-react-x-dom",
+  "version": "0.1.0",
+  "description": "Default jest configuration for react-x for dom components.",
+  "license": "MIT",
+  "author": "Mark Miyashita <negativetwelve@gmail.com>",
+  "homepage": "https://github.com/negativetwelve/react-x",
+  "repository": "https://github.com/negativetwelve/react-x/tree/master/packages/jest-preset-react-x-dom",
+  "keywords": [
+    "jest",
+    "preset",
+    "react-x",
+    "test"
+  ],
+  "files": [
+    "jest-preset.json",
+    "setup.js"
+  ],
+  "dependencies": {
+    "identity-obj-proxy": "^3.0.0",
+    "jest-plugins": "^2.7.0",
+    "jest-plugins-react": "^2.7.0",
+    "jest-plugins-recommended": "^2.7.0"
+  },
+  "peerDependencies": {
+    "jest": "*"
+  }
+}

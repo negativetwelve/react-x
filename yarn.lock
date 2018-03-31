@@ -3919,23 +3919,11 @@ jest-mock@^21.2.0:
   version "21.2.0"
   resolved "https://registry.yarnpkg.com/jest-mock/-/jest-mock-21.2.0.tgz#7eb0770e7317968165f61ea2a7281131534b3c0f"
 
-jest-plugin-action@^1.8.3:
-  version "1.8.3"
-  resolved "https://registry.yarnpkg.com/jest-plugin-action/-/jest-plugin-action-1.8.3.tgz#84c379374eeba7d017281bcafa8067a41950b661"
-  dependencies:
-    jest-plugin-set "^1.8.3"
-
 jest-plugin-action@^2.7.0:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/jest-plugin-action/-/jest-plugin-action-2.7.0.tgz#f69664f77668db98494f069d1f4e4a6bc32fbc70"
   dependencies:
     jest-plugin-set "^2.7.0"
-
-jest-plugin-clock@^1.8.3:
-  version "1.8.3"
-  resolved "https://registry.yarnpkg.com/jest-plugin-clock/-/jest-plugin-clock-1.8.3.tgz#0d212a3c2a23328773f0357f0d5d5c6d214a6eb8"
-  dependencies:
-    mockdate "^2.0.2"
 
 jest-plugin-clock@^2.7.0:
   version "2.7.0"
@@ -3943,28 +3931,13 @@ jest-plugin-clock@^2.7.0:
   dependencies:
     mockdate "^2.0.2"
 
-jest-plugin-console-matchers@^1.8.3:
-  version "1.8.3"
-  resolved "https://registry.yarnpkg.com/jest-plugin-console-matchers/-/jest-plugin-console-matchers-1.8.3.tgz#18d376ee1ca232130f7b47a03465a6da2653b1e6"
-
 jest-plugin-console-matchers@^2.7.0:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/jest-plugin-console-matchers/-/jest-plugin-console-matchers-2.7.0.tgz#d99e49a27c4444a4cae4493a95e39204b31ce047"
 
-jest-plugin-context@^1.8.3:
-  version "1.8.3"
-  resolved "https://registry.yarnpkg.com/jest-plugin-context/-/jest-plugin-context-1.8.3.tgz#e3588140651d4617684d902eacf5e1b05a122e27"
-
 jest-plugin-context@^2.7.0:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/jest-plugin-context/-/jest-plugin-context-2.7.0.tgz#f654d9f916448b680b92b1273b4b756dee38d101"
-
-jest-plugin-for-each@^1.8.3:
-  version "1.8.3"
-  resolved "https://registry.yarnpkg.com/jest-plugin-for-each/-/jest-plugin-for-each-1.8.3.tgz#bd55b5a054d196b6ae3ed364c41bb1df341a20d3"
-  dependencies:
-    invariant "^2.2.2"
-    jest-plugin-set "^1.8.3"
 
 jest-plugin-for-each@^2.7.0:
   version "2.7.0"
@@ -3986,13 +3959,6 @@ jest-plugin-it-shallow-renders@^2.7.0:
     enzyme "^2.9.1"
     enzyme-to-json "^1.5.1"
 
-jest-plugin-its@^1.8.3:
-  version "1.8.3"
-  resolved "https://registry.yarnpkg.com/jest-plugin-its/-/jest-plugin-its-1.8.3.tgz#d7c87ced18d1996f894b257c64990384553a499a"
-  dependencies:
-    invariant "^2.2.2"
-    jest-plugin-set "^1.8.3"
-
 jest-plugin-its@^2.7.0:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/jest-plugin-its/-/jest-plugin-its-2.7.0.tgz#1b8ae5f6ae1ce5726964a6ca84b1be855cd2f549"
@@ -4000,32 +3966,17 @@ jest-plugin-its@^2.7.0:
     invariant "^2.2.2"
     jest-plugin-set "^2.7.0"
 
-jest-plugin-set@^1.8.3:
-  version "1.8.3"
-  resolved "https://registry.yarnpkg.com/jest-plugin-set/-/jest-plugin-set-1.8.3.tgz#c608a3c1f71a61059934ef010270ce4245c946b8"
-
 jest-plugin-set@^2.7.0:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/jest-plugin-set/-/jest-plugin-set-2.7.0.tgz#3b8e6ca2eb167d5a7b7d689868bc49d0e32e3d19"
 
-jest-plugins-react@^2.1.0, jest-plugins-react@^2.7.0:
+jest-plugins-react@^2.7.0:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/jest-plugins-react/-/jest-plugins-react-2.7.0.tgz#5a9e3841d625f26112480cc49c8d26e32fdf429f"
   dependencies:
     jest-plugin-it-renders "^2.7.0"
     jest-plugin-it-shallow-renders "^2.7.0"
     jest-plugins "^2.7.0"
-
-jest-plugins-recommended@^1.8.2:
-  version "1.8.3"
-  resolved "https://registry.yarnpkg.com/jest-plugins-recommended/-/jest-plugins-recommended-1.8.3.tgz#9d0458c0e180e1216f4f3099a5e8f7881abc9063"
-  dependencies:
-    jest-plugin-action "^1.8.3"
-    jest-plugin-clock "^1.8.3"
-    jest-plugin-console-matchers "^1.8.3"
-    jest-plugin-for-each "^1.8.3"
-    jest-plugins "^1.8.3"
-    jest-plugins-rspec "^1.8.3"
 
 jest-plugins-recommended@^2.7.0:
   version "2.7.0"
@@ -4038,15 +3989,6 @@ jest-plugins-recommended@^2.7.0:
     jest-plugins "^2.7.0"
     jest-plugins-rspec "^2.7.0"
 
-jest-plugins-rspec@^1.8.3:
-  version "1.8.3"
-  resolved "https://registry.yarnpkg.com/jest-plugins-rspec/-/jest-plugins-rspec-1.8.3.tgz#9cb627c135888629156e475778814225086e5da4"
-  dependencies:
-    jest-plugin-context "^1.8.3"
-    jest-plugin-its "^1.8.3"
-    jest-plugin-set "^1.8.3"
-    jest-plugins "^1.8.3"
-
 jest-plugins-rspec@^2.7.0:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/jest-plugins-rspec/-/jest-plugins-rspec-2.7.0.tgz#6d57e4de953ded274f900665dba2b31ca2061e04"
@@ -4056,20 +3998,9 @@ jest-plugins-rspec@^2.7.0:
     jest-plugin-set "^2.7.0"
     jest-plugins "^2.7.0"
 
-jest-plugins@^1.8.2, jest-plugins@^1.8.3:
-  version "1.8.3"
-  resolved "https://registry.yarnpkg.com/jest-plugins/-/jest-plugins-1.8.3.tgz#96c0495c2091d3d4284b2d9cabf85d151631fcad"
-
 jest-plugins@^2.7.0:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/jest-plugins/-/jest-plugins-2.7.0.tgz#83563580a98850b858984d8a635e1845eea7a09a"
-
-jest-preset-jolt@^2.8.3:
-  version "2.8.9"
-  resolved "https://registry.yarnpkg.com/jest-preset-jolt/-/jest-preset-jolt-2.8.9.tgz#42cb188bf2de0434a93810f761260d5bbe6b2aa0"
-  dependencies:
-    jest-plugins "^1.8.2"
-    jest-plugins-recommended "^1.8.2"
 
 jest-regex-util@^21.2.0:
   version "21.2.0"
