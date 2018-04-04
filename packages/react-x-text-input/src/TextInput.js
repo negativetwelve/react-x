@@ -1,25 +1,4 @@
-// Libraries
-import React from 'react';
-import PropTypes from 'prop-types';
-
 // React X
-import TextInputX from './TextInputX';
-
-// --------------------------------------------------
-// Components
-// --------------------------------------------------
-
-// NOTE(mark): Ignore the innerRef prop which is passed by some styling
-// libraries.
-const TextInput = ({innerRef, ...props}) => <TextInputX {...props} />;
-
-// --------------------------------------------------
-// Props
-// --------------------------------------------------
-TextInput.propTypes = {
-};
-
-TextInput.defaultProps = {
-};
-
-export default TextInput;
+// NOTE(mark): Until we need custom functionality, we should assume react-native
+// and react-native-web export a consistent TextInput.
+export default from './TextInputX';
