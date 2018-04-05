@@ -22,9 +22,7 @@
     "react-native-svg": "^6.3.1"
   },
   "peerDependencies": {
-    "react": "*"
-  },
-  "optionalDependencies": {
+    "react": "*",
     "react-dom": "*",
     "react-native": "*"
   },

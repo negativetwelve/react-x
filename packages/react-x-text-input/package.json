@@ -20,9 +20,7 @@
     "build"
   ],
   "peerDependencies": {
-    "react": "*"
-  },
-  "optionalDependencies": {
+    "react": "*",
     "react-native": "*",
     "react-native-web": "^0.3.2"
   },
