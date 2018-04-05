@@ -1,4 +1,20 @@
-import * as SVG from 'react-primitives-svg/lib/core.web';
+import 'react-dom';
 
-// Export all individual components and the single SVG object.
-module.exports = SVG;
+module.exports = {
+  Svg: 'svg',
+  Circle: 'circle',
+  Ellipse: 'ellipse',
+  G: 'g',
+  LinearGradient: 'linearGradient',
+  RadialGradient: 'radialGradient',
+  Line: 'line',
+  Path: 'path',
+  Polygon: 'polygon',
+  Polyline: 'polyline',
+  Rect: 'rect',
+  Symbol: 'symbol',
+  Text: 'text',
+  Use: 'use',
+  Defs: 'defs',
+  Stop: 'stop',
+};

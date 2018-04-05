@@ -18,9 +18,9 @@
   ],
   "dependencies": {
     "identity-obj-proxy": "^3.0.0",
-    "jest-plugins": "^2.8.2",
-    "jest-plugins-react": "^2.8.2",
-    "jest-plugins-recommended": "^2.8.2"
+    "jest-plugins": "^2.9.0",
+    "jest-plugins-react": "^2.9.0",
+    "jest-plugins-recommended": "^2.9.0"
   },
   "peerDependencies": {
     "jest": "*"

@@ -1,6 +1,36 @@
-// NOTE(mark): The ios/android implementations are the same for the
-// react-primitives-svg library.
-import * as SVG from 'react-primitives-svg/lib/core.ios';
+import Svg, {
+  Circle,
+  Ellipse,
+  G,
+  LinearGradient,
+  RadialGradient,
+  Line,
+  Path,
+  Polygon,
+  Polyline,
+  Rect,
+  Symbol,
+  Text,
+  Use,
+  Defs,
+  Stop,
+} from 'react-native-svg';
 
-// Export all individual components and the single SVG object.
-module.exports = SVG;
+module.exports = {
+  Svg,
+  Circle,
+  Ellipse,
+  G,
+  LinearGradient,
+  RadialGradient,
+  Line,
+  Path,
+  Polygon,
+  Polyline,
+  Rect,
+  Symbol,
+  Text,
+  Use,
+  Defs,
+  Stop,
+};
