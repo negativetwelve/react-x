@@ -23,10 +23,8 @@
     "build"
   ],
   "dependencies": {
-    "prop-types": "^15.5.10"
-  },
-  "peerDependencies": {
-    "react": "*"
+    "prop-types": ">=15.0.0",
+    "react": ">=16.0.0"
   },
   "scripts": {
     "build": "babel src --out-dir build --ignore \"**/__tests__/**\"",
