@@ -4138,95 +4138,98 @@ jest-mock@^21.2.0:
   version "21.2.0"
   resolved "https://registry.yarnpkg.com/jest-mock/-/jest-mock-21.2.0.tgz#7eb0770e7317968165f61ea2a7281131534b3c0f"
 
-jest-plugin-action@^2.8.1:
-  version "2.8.1"
-  resolved "https://registry.yarnpkg.com/jest-plugin-action/-/jest-plugin-action-2.8.1.tgz#f5c9475bea49e2f22269d942ed1beea677497695"
+jest-plugin-action@^2.8.2:
+  version "2.8.2"
+  resolved "https://registry.yarnpkg.com/jest-plugin-action/-/jest-plugin-action-2.8.2.tgz#b0b227f8805033147237fa02a0f28ac28d95706a"
   dependencies:
-    jest-plugin-set "^2.8.1"
+    jest-plugin-set "^2.8.2"
 
-jest-plugin-clock@^2.8.1:
-  version "2.8.1"
-  resolved "https://registry.yarnpkg.com/jest-plugin-clock/-/jest-plugin-clock-2.8.1.tgz#a597f7c52088d613b30b2a0f17a8611c44a96699"
+jest-plugin-clock@^2.8.2:
+  version "2.8.2"
+  resolved "https://registry.yarnpkg.com/jest-plugin-clock/-/jest-plugin-clock-2.8.2.tgz#0a020bf8863e28b20f1d698970282f280c34db7d"
   dependencies:
     mockdate "^2.0.2"
 
-jest-plugin-console-matchers@^2.8.1:
-  version "2.8.1"
-  resolved "https://registry.yarnpkg.com/jest-plugin-console-matchers/-/jest-plugin-console-matchers-2.8.1.tgz#3923e02dfdc6739691cc4a44ba97d5865b1f7ded"
+jest-plugin-console-matchers@^2.8.2:
+  version "2.8.2"
+  resolved "https://registry.yarnpkg.com/jest-plugin-console-matchers/-/jest-plugin-console-matchers-2.8.2.tgz#a74737a9a66a3d4511f989bb38ffc5cc0461f47b"
 
-jest-plugin-context@^2.8.1:
-  version "2.8.1"
-  resolved "https://registry.yarnpkg.com/jest-plugin-context/-/jest-plugin-context-2.8.1.tgz#5efd657d79d13771ab0f7aa63d2d61e86929edcd"
+jest-plugin-context@^2.8.2:
+  version "2.8.2"
+  resolved "https://registry.yarnpkg.com/jest-plugin-context/-/jest-plugin-context-2.8.2.tgz#60b04d10ffa67c83f6a644ed69989876e5af86e7"
 
-jest-plugin-enzyme@^2.8.1:
-  version "2.8.1"
-  resolved "https://registry.yarnpkg.com/jest-plugin-enzyme/-/jest-plugin-enzyme-2.8.1.tgz#6d35d381d25fbbbbe4e35cae2d379756f49e03d1"
+jest-plugin-enzyme@^2.8.2:
+  version "2.8.2"
+  resolved "https://registry.yarnpkg.com/jest-plugin-enzyme/-/jest-plugin-enzyme-2.8.2.tgz#6ffb7e2975de117e999961518752a9387f6b2e40"
   dependencies:
     enzyme "^3.3.0"
     enzyme-adapter-react-16 "^1.1.1"
     enzyme-to-json "^3.3.3"
+    react ">=16.0.0"
+    react-dom ">=16.0.0"
 
-jest-plugin-for-each@^2.8.1:
-  version "2.8.1"
-  resolved "https://registry.yarnpkg.com/jest-plugin-for-each/-/jest-plugin-for-each-2.8.1.tgz#b74c3c65c3d7c51f6c5ab4377b673b2ba5821750"
+jest-plugin-for-each@^2.8.2:
+  version "2.8.2"
+  resolved "https://registry.yarnpkg.com/jest-plugin-for-each/-/jest-plugin-for-each-2.8.2.tgz#4748fbd74c82048d27642494ad024ef780e4c478"
   dependencies:
     invariant "^2.2.2"
-    jest-plugin-set "^2.8.1"
+    jest-plugin-set "^2.8.2"
 
-jest-plugin-it-renders@^2.8.1:
-  version "2.8.1"
-  resolved "https://registry.yarnpkg.com/jest-plugin-it-renders/-/jest-plugin-it-renders-2.8.1.tgz#e308470cccae607d54203c2344fb2cadf2ae1fa8"
+jest-plugin-it-renders@^2.8.2:
+  version "2.8.2"
+  resolved "https://registry.yarnpkg.com/jest-plugin-it-renders/-/jest-plugin-it-renders-2.8.2.tgz#385f6af97aae835a469436dab780b93f7667aa00"
   dependencies:
-    react-test-renderer "^16.2.0"
+    react ">=16.0.0"
+    react-test-renderer ">=16.0.0"
 
-jest-plugin-it-shallow-renders@^2.8.1:
-  version "2.8.1"
-  resolved "https://registry.yarnpkg.com/jest-plugin-it-shallow-renders/-/jest-plugin-it-shallow-renders-2.8.1.tgz#9a24e5fc1456b8070cf111fb1ac817060506660b"
+jest-plugin-it-shallow-renders@^2.8.2:
+  version "2.8.2"
+  resolved "https://registry.yarnpkg.com/jest-plugin-it-shallow-renders/-/jest-plugin-it-shallow-renders-2.8.2.tgz#99be1b069a1c3d4d92fa775d2f99a00c38879c5e"
   dependencies:
-    jest-plugin-enzyme "^2.8.1"
+    jest-plugin-enzyme "^2.8.2"
 
-jest-plugin-its@^2.8.1:
-  version "2.8.1"
-  resolved "https://registry.yarnpkg.com/jest-plugin-its/-/jest-plugin-its-2.8.1.tgz#437b30bbbf57900bcfb32b306286b75442748cd9"
+jest-plugin-its@^2.8.2:
+  version "2.8.2"
+  resolved "https://registry.yarnpkg.com/jest-plugin-its/-/jest-plugin-its-2.8.2.tgz#85ffa840a4b15f145fa9122dcf0bfde3b2b9b9fb"
   dependencies:
     invariant "^2.2.2"
-    jest-plugin-set "^2.8.1"
+    jest-plugin-set "^2.8.2"
 
-jest-plugin-set@^2.8.1:
-  version "2.8.1"
-  resolved "https://registry.yarnpkg.com/jest-plugin-set/-/jest-plugin-set-2.8.1.tgz#af90c40eeb9746064b44f1c021a5426d5cecd446"
+jest-plugin-set@^2.8.2:
+  version "2.8.2"
+  resolved "https://registry.yarnpkg.com/jest-plugin-set/-/jest-plugin-set-2.8.2.tgz#d409cd24db52086a350417f5d98912d92407b783"
 
-jest-plugins-react@^2.8.1:
-  version "2.8.1"
-  resolved "https://registry.yarnpkg.com/jest-plugins-react/-/jest-plugins-react-2.8.1.tgz#59523abfe6060df2ddacf39a89de2554d0f1965c"
+jest-plugins-react@^2.8.2:
+  version "2.8.2"
+  resolved "https://registry.yarnpkg.com/jest-plugins-react/-/jest-plugins-react-2.8.2.tgz#abac2a05c593aa34b231a4c20293acd2068ee036"
   dependencies:
-    jest-plugin-it-renders "^2.8.1"
-    jest-plugin-it-shallow-renders "^2.8.1"
-    jest-plugins "^2.8.1"
+    jest-plugin-it-renders "^2.8.2"
+    jest-plugin-it-shallow-renders "^2.8.2"
+    jest-plugins "^2.8.2"
 
-jest-plugins-recommended@^2.8.1:
-  version "2.8.1"
-  resolved "https://registry.yarnpkg.com/jest-plugins-recommended/-/jest-plugins-recommended-2.8.1.tgz#00a8a3474065dd9ccd27b7ecfa35f130628ca656"
+jest-plugins-recommended@^2.8.2:
+  version "2.8.2"
+  resolved "https://registry.yarnpkg.com/jest-plugins-recommended/-/jest-plugins-recommended-2.8.2.tgz#0fba7218e6730f7f5eae440c63b7f3212f0156b5"
   dependencies:
-    jest-plugin-action "^2.8.1"
-    jest-plugin-clock "^2.8.1"
-    jest-plugin-console-matchers "^2.8.1"
-    jest-plugin-for-each "^2.8.1"
-    jest-plugins "^2.8.1"
-    jest-plugins-rspec "^2.8.1"
+    jest-plugin-action "^2.8.2"
+    jest-plugin-clock "^2.8.2"
+    jest-plugin-console-matchers "^2.8.2"
+    jest-plugin-for-each "^2.8.2"
+    jest-plugins "^2.8.2"
+    jest-plugins-rspec "^2.8.2"
 
-jest-plugins-rspec@^2.8.1:
-  version "2.8.1"
-  resolved "https://registry.yarnpkg.com/jest-plugins-rspec/-/jest-plugins-rspec-2.8.1.tgz#7a5bf78062901db007242436f0260b3333c745e9"
+jest-plugins-rspec@^2.8.2:
+  version "2.8.2"
+  resolved "https://registry.yarnpkg.com/jest-plugins-rspec/-/jest-plugins-rspec-2.8.2.tgz#8c1f5f0721cc5d838afc05ea90102181ff665462"
   dependencies:
-    jest-plugin-context "^2.8.1"
-    jest-plugin-its "^2.8.1"
-    jest-plugin-set "^2.8.1"
-    jest-plugins "^2.8.1"
+    jest-plugin-context "^2.8.2"
+    jest-plugin-its "^2.8.2"
+    jest-plugin-set "^2.8.2"
+    jest-plugins "^2.8.2"
 
-jest-plugins@^2.8.1:
-  version "2.8.1"
-  resolved "https://registry.yarnpkg.com/jest-plugins/-/jest-plugins-2.8.1.tgz#b2c6826c15fca0fce40fb1e80e72b25767bd2b72"
+jest-plugins@^2.8.2:
+  version "2.8.2"
+  resolved "https://registry.yarnpkg.com/jest-plugins/-/jest-plugins-2.8.2.tgz#24d4655e0b26a5877ee640319eb531d176cc4081"
 
 jest-regex-util@^21.2.0:
   version "21.2.0"
@@ -5981,7 +5984,7 @@ react-reconciler@^0.7.0:
     object-assign "^4.1.1"
     prop-types "^15.6.0"
 
-react-test-renderer@^16.0.0-0, react-test-renderer@^16.2.0:
+react-test-renderer@>=16.0.0, react-test-renderer@^16.0.0-0:
   version "16.3.1"
   resolved "https://registry.yarnpkg.com/react-test-renderer/-/react-test-renderer-16.3.1.tgz#d9257936d8535bd40f57f3d5a84e7b0452fb17f2"
   dependencies:
