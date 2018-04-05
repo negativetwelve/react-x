@@ -1,6 +1,6 @@
 {
   "name": "react-x",
-  "version": "2.1.2",
+  "version": "2.2.0",
   "description": "Cross-platform React interfaces for ReactDOM and React Native.",
   "license": "MIT",
   "author": "Mark Miyashita <negativetwelve@gmail.com>",
@@ -21,12 +21,12 @@
   ],
   "dependencies": {
     "react": ">=16.0.0",
-    "react-x-clipboard": "2.1.2",
-    "react-x-keychain": "2.1.2",
-    "react-x-primitives": "2.1.2",
-    "react-x-render": "2.1.2",
-    "react-x-svg": "2.1.2",
-    "react-x-switch": "2.1.2"
+    "react-x-clipboard": "2.2.0",
+    "react-x-keychain": "2.2.0",
+    "react-x-primitives": "2.2.0",
+    "react-x-render": "2.2.0",
+    "react-x-svg": "2.2.0",
+    "react-x-switch": "2.2.0"
   },
   "scripts": {
     "build": "babel src --out-dir build --ignore \"**/__tests__/**\"",

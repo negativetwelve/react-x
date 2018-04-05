@@ -1,6 +1,6 @@
 {
   "name": "jest-preset-react-x-dom",
-  "version": "2.1.2",
+  "version": "2.2.0",
   "description": "Default jest configuration for react-x for dom components.",
   "license": "MIT",
   "author": "Mark Miyashita <negativetwelve@gmail.com>",
