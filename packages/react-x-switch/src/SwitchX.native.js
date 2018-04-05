@@ -1,11 +1,11 @@
 // Libraries
 import React from 'react';
-import ReactNative from 'react-native';
+import {Switch} from 'react-native';
 import PropTypes from 'prop-types';
 
 
 const SwitchX = (props) => (
-  <ReactNative.Switch
+  <Switch
     disabled={props.isDisabled}
     value={props.isOn}
     tintColor={props.tintColor}
