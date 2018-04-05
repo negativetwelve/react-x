@@ -18,11 +18,12 @@
     "build"
   ],
   "dependencies": {
+    "prop-types": ">=15.0.0",
+    "react": ">=16.0.0",
+    "react-dom": ">=16.0.0",
+    "react-native": ">=0.50.0",
     "react-native-svg": "6.2.2",
     "react-primitives-svg": "0.0.3"
-  },
-  "peerDependencies": {
-    "react": "*"
   },
   "scripts": {
     "build": "babel src --out-dir build --ignore \"**/__tests__/**\"",
