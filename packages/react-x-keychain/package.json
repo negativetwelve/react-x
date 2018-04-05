@@ -1,6 +1,6 @@
 {
   "name": "react-x-keychain",
-  "version": "2.4.0",
+  "version": "2.5.0",
   "description": "Cross-platform persistent storage for ReactDOM (cookies) and React Native (keychain) apps.",
   "license": "MIT",
   "author": "Mark Miyashita <negativetwelve@gmail.com>",
