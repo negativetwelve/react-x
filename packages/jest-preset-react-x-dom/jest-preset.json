@@ -5,5 +5,8 @@
   },
   "setupTestFrameworkScriptFile": "jest-preset-react-x-dom/setup.js",
   "testEnvironment": "node",
-  "testMatch": ["**/?(*.)spec.js", "**/?(*.)spec.dom.js"]
+  "testMatch": ["**/?(*.)spec.js", "**/?(*.)spec.dom.js"],
+  "transformIgnorePatterns": [
+    "node_modules/(?!react-native-web|react-primitives)"
+  ]
 }
