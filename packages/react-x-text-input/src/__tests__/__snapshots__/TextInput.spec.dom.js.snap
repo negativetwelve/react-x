@@ -14,7 +14,6 @@ exports[`TextInput with no props renders snapshot 1`] = `
   onKeyPress={[Function]}
   onSelect={[Function]}
   readOnly={false}
-  spellCheck={true}
   type="text"
 />
 `;
@@ -33,7 +32,6 @@ exports[`TextInput with style prop renders snapshot 1`] = `
   onKeyPress={[Function]}
   onSelect={[Function]}
   readOnly={false}
-  spellCheck={true}
   style={
     Object {
       "paddingBottom": "12px",
