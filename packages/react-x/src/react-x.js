@@ -4,6 +4,7 @@ module.exports = {
   get Animated() { return require('react-x-primitives').Animated; },
   get Clipboard() { return require('react-x-clipboard').default; },
   get Keychain() { return require('react-x-keychain').default; },
+  get Platform() { return require('react-x-primitives').Platform; },
   get StyleSheet() { return require('react-x-primitives').StyleSheet; },
 
   // Components

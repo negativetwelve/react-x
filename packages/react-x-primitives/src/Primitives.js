@@ -1,6 +1,7 @@
 export {
   // APIs
   Animated,
+  Platform,
   StyleSheet,
 
   // Components
