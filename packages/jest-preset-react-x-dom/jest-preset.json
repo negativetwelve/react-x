@@ -3,6 +3,7 @@
   "moduleNameMapper": {
     "\\.(css|less|sass)$": "identity-obj-proxy"
   },
+  "setupFiles": ["jest-localstorage-mock"],
   "setupTestFrameworkScriptFile": "jest-preset-react-x-dom/setup.js",
   "testEnvironment": "node",
   "testMatch": ["**/?(*.)spec.js", "**/?(*.)spec.dom.js"],

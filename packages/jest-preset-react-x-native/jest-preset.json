@@ -4,6 +4,6 @@
   "testEnvironment": "node",
   "testMatch": ["**/?(*.)spec.js", "**/?(*.)spec.native.js"],
   "transformIgnorePatterns": [
-    "node_modules/(?!react-native|react-native-keychain|react-native-web|react-primitives)"
+    "node_modules/(?!react-native|react-native-keychain|react-native-web|react-primitives|@react-native-community/async-storage)"
   ]
 }
