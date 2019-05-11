@@ -1,3 +1,6 @@
+// Libraries
+const mockAsyncStorage = require('@react-native-community/async-storage/jest/async-storage-mock');
+
 require('jest-plugins')([
   'jest-plugins-react',
   'jest-plugins-recommended',
@@ -25,3 +28,6 @@ jest.mock('react-native-svg', () => ({
   Line: () => null,
   Rect: () => null,
 }), {virtual: true});
+
+// Mock out the async storage module which requires native components.
+jest.mock('@react-native-community/async-storage', () => mockAsyncStorage);
