@@ -21,7 +21,7 @@
     "build"
   ],
   "dependencies": {
-    "@react-native-community/async-storage": "1.4.0"
+    "react-native": "0.55.3"
   },
   "scripts": {
     "build": "babel src --out-dir build --ignore \"**/__tests__/**\"",

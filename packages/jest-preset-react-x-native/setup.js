@@ -1,5 +1,5 @@
 // Libraries
-const mockAsyncStorage = require('@react-native-community/async-storage/jest/async-storage-mock');
+const MockAsyncStorage = require('mock-async-storage').default;
 
 require('jest-plugins')([
   'jest-plugins-react',
@@ -17,9 +17,13 @@ jest.mock('react-native', () => ({
   // TODO(mark): Proper component mocks are much needed and all snapshots
   // will need to be updated once this mock is complete.
 
+  // APIs
+  AsyncStorage: new MockAsyncStorage(), // react-x-storage
+  NativeModules: {}, // react-x-keychain
+
+  // Components
   Switch: () => null, // react-x-switch
   TextInput: () => null, // react-x-text-input
-  NativeModules: {}, // react-x-keychain
 }), {virtual: true});
 
 // Mock out react-native-svg since we don't have the native components.
@@ -28,6 +32,3 @@ jest.mock('react-native-svg', () => ({
   Line: () => null,
   Rect: () => null,
 }), {virtual: true});
-
-// Mock out the async storage module which requires native components.
-jest.mock('@react-native-community/async-storage', () => mockAsyncStorage);

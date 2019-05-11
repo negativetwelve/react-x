@@ -1,1 +1,1 @@
-export {default} from '@react-native-community/async-storage';
+export {AsyncStorage as default} from 'react-native';
