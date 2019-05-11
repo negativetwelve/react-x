@@ -2,7 +2,6 @@
 
 exports[`SwitchX.dom with default props renders snapshot 1`] = `
 <span
-  className={undefined}
   onClick={[Function]}
   style={
     Object {
@@ -53,10 +52,7 @@ exports[`SwitchX.dom with default props renders snapshot 1`] = `
   />
   <input
     checked={false}
-    disabled={undefined}
-    name={undefined}
     onChange={[Function]}
-    readOnly={undefined}
     style={
       Object {
         "display": "none",
@@ -69,7 +65,6 @@ exports[`SwitchX.dom with default props renders snapshot 1`] = `
 
 exports[`SwitchX.dom with isDisabled set to false renders snapshot 1`] = `
 <span
-  className={undefined}
   onClick={[Function]}
   style={
     Object {
@@ -120,10 +115,7 @@ exports[`SwitchX.dom with isDisabled set to false renders snapshot 1`] = `
   />
   <input
     checked={false}
-    disabled={undefined}
-    name={undefined}
     onChange={[Function]}
-    readOnly={undefined}
     style={
       Object {
         "display": "none",
@@ -136,7 +128,6 @@ exports[`SwitchX.dom with isDisabled set to false renders snapshot 1`] = `
 
 exports[`SwitchX.dom with isDisabled set to true renders snapshot 1`] = `
 <span
-  className={undefined}
   onClick={[Function]}
   style={
     Object {
@@ -187,10 +178,7 @@ exports[`SwitchX.dom with isDisabled set to true renders snapshot 1`] = `
   />
   <input
     checked={false}
-    disabled={undefined}
-    name={undefined}
     onChange={[Function]}
-    readOnly={undefined}
     style={
       Object {
         "display": "none",
@@ -203,7 +191,6 @@ exports[`SwitchX.dom with isDisabled set to true renders snapshot 1`] = `
 
 exports[`SwitchX.dom with isOn set to false renders snapshot 1`] = `
 <span
-  className={undefined}
   onClick={[Function]}
   style={
     Object {
@@ -254,10 +241,7 @@ exports[`SwitchX.dom with isOn set to false renders snapshot 1`] = `
   />
   <input
     checked={false}
-    disabled={undefined}
-    name={undefined}
     onChange={[Function]}
-    readOnly={undefined}
     style={
       Object {
         "display": "none",
@@ -270,7 +254,6 @@ exports[`SwitchX.dom with isOn set to false renders snapshot 1`] = `
 
 exports[`SwitchX.dom with isOn set to true renders snapshot 1`] = `
 <span
-  className={undefined}
   onClick={[Function]}
   style={
     Object {
@@ -321,10 +304,7 @@ exports[`SwitchX.dom with isOn set to true renders snapshot 1`] = `
   />
   <input
     checked={true}
-    disabled={undefined}
-    name={undefined}
     onChange={[Function]}
-    readOnly={undefined}
     style={
       Object {
         "display": "none",
