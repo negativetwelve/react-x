@@ -10,6 +10,7 @@ describe('ReactX', () => {
       'Clipboard',
       'Keychain',
       'Platform',
+      'Storage',
       'StyleSheet',
     ];
 
