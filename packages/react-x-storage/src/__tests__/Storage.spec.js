@@ -10,7 +10,7 @@ describe('Storage', () => {
 
     context('with empty storage', () => {
       it('should return undefined', () => {
-        expect(getItem()).resolves.toEqual(undefined);
+        expect(getItem()).resolves.toEqual(null);
       });
     });
 
