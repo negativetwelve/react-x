@@ -19,7 +19,8 @@
   "dependencies": {
     "jest-plugins": "^2.9.0",
     "jest-plugins-react": "^2.9.0",
-    "jest-plugins-recommended": "^2.9.0"
+    "jest-plugins-recommended": "^2.9.0",
+    "mock-async-storage": "2.1.0"
   },
   "peerDependencies": {
     "jest": "*"

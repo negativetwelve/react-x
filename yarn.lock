@@ -1348,11 +1348,6 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^12.0.9"
 
-"@react-native-community/async-storage@1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@react-native-community/async-storage/-/async-storage-1.4.0.tgz#11864c8ff61b7f8c7062cb8f5c3a721f6a648ede"
-  integrity sha512-Aksg16keqrxaluFRZwmo8O8ppP9TFylyCEwBElmxeZ+a6DQAvyMn5nS3n+lgSpkYsrwU2ZGVjDluhkjtBrkEqQ==
-
 "@types/babel__core@^7.1.0":
   version "7.1.1"
   resolved "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.1.1.tgz#ce9a9e5d92b7031421e1d0d74ae59f572ba48be6"
@@ -3384,6 +3379,11 @@ deep-is@~0.1.3:
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/deep-is/-/deep-is-0.1.3.tgz#b369d6fb5dbc13eecf524f91b070feedc357cf34"
 
+deepmerge@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-3.2.0.tgz#58ef463a57c08d376547f8869fdc5bcee957f44e"
+  integrity sha512-6+LuZGU7QCNUnAJyX8cIrlzoEgggTM6B7mm+znKOX4t5ltluT9KLjN6g61ECMS0LTsLW7yDpNoxhix5FZcrIow==
+
 defaults@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/defaults/-/defaults-1.0.3.tgz#c656051e9817d9ff08ed881477f3fe4019f3ef7d"
@@ -4933,13 +4933,6 @@ ini@^1.3.2, ini@~1.3.0:
 inline-style-prefixer@^3.0.7:
   version "3.0.8"
   resolved "https://registry.yarnpkg.com/inline-style-prefixer/-/inline-style-prefixer-3.0.8.tgz#8551b8e5b4d573244e66a34b04f7d32076a2b534"
-  dependencies:
-    bowser "^1.7.3"
-    css-in-js-utils "^2.0.0"
-
-inline-style-prefixer@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/inline-style-prefixer/-/inline-style-prefixer-4.0.0.tgz#30a03df1b346ba6b1fb8a812bc3c9dabef48022d"
   dependencies:
     bowser "^1.7.3"
     css-in-js-utils "^2.0.0"
@@ -6872,6 +6865,13 @@ mixin-deep@^1.2.0:
   dependencies:
     minimist "0.0.8"
 
+mock-async-storage@2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/mock-async-storage/-/mock-async-storage-2.1.0.tgz#d3d68393a29a8451814fd30548e7baa9e8ce55ad"
+  integrity sha512-yoayYL1MHspI8tqk2gLM0ohqjgkylTfc8DxBToJGNfdvYZsj9taJMely0PZ8g2ZwqtZbE9KtdqnLLeXpc3XBZg==
+  dependencies:
+    deepmerge "^3.2.0"
+
 mockdate@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/mockdate/-/mockdate-2.0.2.tgz#5ae0c0eaf8fe23e009cd01f9889b42c4f634af12"
@@ -7805,17 +7805,6 @@ rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-art@^16.2.0:
-  version "16.2.0"
-  resolved "https://registry.yarnpkg.com/react-art/-/react-art-16.2.0.tgz#3b6914a6c9da64f83910896fa8cdae6ddf2aa589"
-  dependencies:
-    art "^0.10.1"
-    create-react-class "^15.6.2"
-    fbjs "^0.8.16"
-    loose-envify "^1.1.0"
-    object-assign "^4.1.1"
-    prop-types "^15.6.0"
-
 react-art@^16.4.0:
   version "16.4.1"
   resolved "https://registry.yarnpkg.com/react-art/-/react-art-16.4.1.tgz#3544c13038d7ddfe8b1cc1170b02d99492c03b50"
@@ -7846,10 +7835,10 @@ react-devtools-core@3.1.0:
     shell-quote "^1.6.1"
     ws "^2.0.3"
 
-react-dom@16.3.0:
-  version "16.3.0"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.3.0.tgz#b318e52184188ecb5c3e81117420cca40618643e"
-  integrity sha512-xT/FxawAurL6AV8YtAP7LkdDJFFX2vvv17AqFLQRF81ZtWLXkV/0dcAaiFIy0lmoQEFT931TU9aaH+5dBUxTcw==
+react-dom@16.4.2:
+  version "16.4.2"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.4.2.tgz#4afed569689f2c561d2b8da0b819669c38a0bda4"
+  integrity sha512-Usl73nQqzvmJN+89r97zmeUpQDKDlh58eX6Hbs/ERdDHzeBzWy+ENk7fsGQ+5KxArV1iOFPT46/VneklK9zoWw==
   dependencies:
     fbjs "^0.8.16"
     loose-envify "^1.1.0"
@@ -7886,10 +7875,10 @@ react-native-svg@^6.3.1:
     lodash "^4.16.6"
     pegjs "^0.10.0"
 
-react-native-web@0.3.2:
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/react-native-web/-/react-native-web-0.3.2.tgz#869de266ab75145229d1df8dfb95d60c1410b986"
-  integrity sha512-fQRRyCVmpy0WDR6IGQ7sbBmwcLiQqftgoMmqSmHNNGwFn1u0qZl9mXUSEU+3BIogpzQgtRBDIpB8g8evDfqXbA==
+react-native-web@0.8.11:
+  version "0.8.11"
+  resolved "https://registry.yarnpkg.com/react-native-web/-/react-native-web-0.8.11.tgz#e569af7076527af40ae7b4e6ce81e0544913a7c7"
+  integrity sha512-XwlSYkeGBYKif7Md1Yg8YHnHFUzaILPM9ebz2vQrg7PKxwL7u/MhCTFT2prCyhqbHqsTKnl54K5H+mrRTPiAgg==
   dependencies:
     array-find-index "^1.0.2"
     create-react-class "^15.6.2"
@@ -7897,10 +7886,9 @@ react-native-web@0.3.2:
     deep-assign "^2.0.0"
     fbjs "^0.8.16"
     hyphenate-style-name "^1.0.2"
-    inline-style-prefixer "^4.0.0"
+    inline-style-prefixer "^4.0.2"
     normalize-css-color "^1.0.2"
     prop-types "^15.6.0"
-    react-art "^16.2.0"
     react-timer-mixin "^0.13.3"
 
 react-native-web@^0.8.3:
@@ -7918,10 +7906,10 @@ react-native-web@^0.8.3:
     prop-types "^15.6.0"
     react-timer-mixin "^0.13.3"
 
-react-native@0.55.0:
-  version "0.55.0"
-  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.55.0.tgz#cf17e01e6ff86187c47858e6c0b5ec6a15895361"
-  integrity sha512-EwxJ4yPPDxj3Jtc4tlV5gSH16EMdy0nXVOetzoeybc4kRpz+bX78EKZ9M6hzkbgSMDwRcpS7ICEptrbrpQWPeA==
+react-native@0.55.3:
+  version "0.55.3"
+  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.55.3.tgz#6ff1691bd0645d0480fba16377edb9dce5bd28c4"
+  integrity sha512-9zdBao5Pv2CzhtUVFiDnXzxjokRtXTHxmAh+DRbNqUZHkBn5PUm9lOembwj+VZFvZchXNLqa3S2MOYGushHTbA==
   dependencies:
     absolute-path "^0.0.0"
     art "^0.10.0"
@@ -8037,10 +8025,10 @@ react-transform-hmr@^1.0.4:
     global "^4.3.0"
     react-proxy "^1.1.7"
 
-react@16.3.0:
-  version "16.3.0"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.3.0.tgz#fc5a01c68f91e9b38e92cf83f7b795ebdca8ddff"
-  integrity sha512-Qh35tNbwY8SLFELkN3PCLO16EARV+lgcmNkQnoZXfzAF1ASRpeucZYUwBlBzsRAzTb7KyfBaLQ4/K/DLC6MYeA==
+react@16.4.2:
+  version "16.4.2"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.4.2.tgz#2cd90154e3a9d9dd8da2991149fdca3c260e129f"
+  integrity sha512-dMv7YrbxO4y2aqnvA7f/ik9ibeLSHQJTI6TrYAenPSaQ6OXfb+Oti+oJiy8WBxgRzlKatYqtCjphTgDSCEiWFg==
   dependencies:
     fbjs "^0.8.16"
     loose-envify "^1.1.0"
