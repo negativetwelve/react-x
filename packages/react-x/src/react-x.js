@@ -5,6 +5,7 @@ module.exports = {
   get Clipboard() { return require('react-x-clipboard').default; },
   get Keychain() { return require('react-x-keychain').default; },
   get Platform() { return require('react-x-primitives').Platform; },
+  get Storage() { return require('react-x-storage').default; },
   get StyleSheet() { return require('react-x-primitives').StyleSheet; },
 
   // Components

@@ -23,6 +23,7 @@
     "react-x-keychain": "2.9.0",
     "react-x-primitives": "2.9.0",
     "react-x-render": "2.9.0",
+    "react-x-storage": "2.9.0",
     "react-x-svg": "2.9.0",
     "react-x-switch": "2.9.0"
   },
