@@ -16,8 +16,7 @@
   ],
   "main": "build/react-x",
   "files": [
-    "build",
-    "components.js"
+    "build"
   ],
   "dependencies": {
     "react-x-clipboard": "2.7.0",
