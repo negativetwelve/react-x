@@ -25,7 +25,8 @@
     "react-x-render": "3.0.0-beta.0",
     "react-x-storage": "3.0.0-beta.0",
     "react-x-svg": "3.0.0-beta.0",
-    "react-x-switch": "3.0.0-beta.0"
+    "react-x-switch": "3.0.0-beta.0",
+    "react-x-text-input": "3.0.0-beta.0"
   },
   "peerDependencies": {
     "react": "*"
