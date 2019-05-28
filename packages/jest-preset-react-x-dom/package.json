@@ -14,7 +14,8 @@
   ],
   "files": [
     "jest-preset.json",
-    "setup.js"
+    "setup.js",
+    "src"
   ],
   "dependencies": {
     "identity-obj-proxy": "^3.0.0",
