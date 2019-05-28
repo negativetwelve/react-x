@@ -1,6 +1,6 @@
 {
   "name": "react-x-clipboard",
-  "version": "3.0.0-beta.1",
+  "version": "3.0.0-beta.2",
   "description": "Cross-platform clipboard for ReactDOM and React Native apps.",
   "license": "MIT",
   "author": "Mark Miyashita <negativetwelve@gmail.com>",

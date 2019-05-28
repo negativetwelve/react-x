@@ -1,6 +1,6 @@
 {
   "name": "jest-preset-react-x-native",
-  "version": "3.0.0-beta.1",
+  "version": "3.0.0-beta.2",
   "description": "Default jest configuration for react-x for native components.",
   "license": "MIT",
   "author": "Mark Miyashita <negativetwelve@gmail.com>",
