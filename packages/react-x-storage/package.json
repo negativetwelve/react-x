@@ -1,6 +1,6 @@
 {
   "name": "react-x-storage",
-  "version": "3.0.0-beta.2",
+  "version": "3.0.0-beta.3",
   "description": "Cross-platform storage for ReactDOM (localStorage) and React Native (AsyncStorage) apps.",
   "license": "MIT",
   "author": "Mark Miyashita <negativetwelve@gmail.com>",
