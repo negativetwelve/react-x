@@ -14,9 +14,11 @@
   ],
   "files": [
     "jest-preset.json",
-    "setup.js"
+    "setup.js",
+    "src"
   ],
   "dependencies": {
+    "browser-env": "3.2.6",
     "identity-obj-proxy": "^3.0.0",
     "jest-localstorage-mock": "2.4.0",
     "jest-plugins": "^2.9.0",

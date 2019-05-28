@@ -5,10 +5,6 @@ exports[`SwitchX.dom with default props renders snapshot 1`] = `
   onClick={[Function]}
   style={
     Object {
-      "MozTransition": "0.2s",
-      "MozUserSelect": "none",
-      "WebkitTransition": "0.2s",
-      "WebkitUserSelect": "none",
       "backgroundColor": "rgba(255, 255, 255, 1)",
       "border": "1px solid rgba(223, 223, 223, 1)",
       "borderRadius": 15,
@@ -16,7 +12,6 @@ exports[`SwitchX.dom with default props renders snapshot 1`] = `
       "boxSizing": "border-box",
       "display": "inline-block",
       "height": 30,
-      "msUserSelect": "none",
       "opacity": 1,
       "position": "relative",
       "transition": "0.2s",
@@ -30,16 +25,10 @@ exports[`SwitchX.dom with default props renders snapshot 1`] = `
     onMouseDown={[Function]}
     style={
       Object {
-        "MozTransition": "0.2s",
-        "WebkitTransition": "0.2s",
         "backgroundColor": "rgb(255,255,255)",
         "borderRadius": "100%",
         "boxShadow": "0 1px 3px rgba(0, 0, 0, 0.4)",
-        "cursor": Array [
-          "-webkit-grab",
-          "-moz-grab",
-          "grab",
-        ],
+        "cursor": "grab",
         "display": "inline-block",
         "height": 28,
         "left": 0,
@@ -68,10 +57,6 @@ exports[`SwitchX.dom with isDisabled set to false renders snapshot 1`] = `
   onClick={[Function]}
   style={
     Object {
-      "MozTransition": "0.2s",
-      "MozUserSelect": "none",
-      "WebkitTransition": "0.2s",
-      "WebkitUserSelect": "none",
       "backgroundColor": "rgba(255, 255, 255, 1)",
       "border": "1px solid rgba(223, 223, 223, 1)",
       "borderRadius": 15,
@@ -79,7 +64,6 @@ exports[`SwitchX.dom with isDisabled set to false renders snapshot 1`] = `
       "boxSizing": "border-box",
       "display": "inline-block",
       "height": 30,
-      "msUserSelect": "none",
       "opacity": 1,
       "position": "relative",
       "transition": "0.2s",
@@ -93,16 +77,10 @@ exports[`SwitchX.dom with isDisabled set to false renders snapshot 1`] = `
     onMouseDown={[Function]}
     style={
       Object {
-        "MozTransition": "0.2s",
-        "WebkitTransition": "0.2s",
         "backgroundColor": "rgb(255,255,255)",
         "borderRadius": "100%",
         "boxShadow": "0 1px 3px rgba(0, 0, 0, 0.4)",
-        "cursor": Array [
-          "-webkit-grab",
-          "-moz-grab",
-          "grab",
-        ],
+        "cursor": "grab",
         "display": "inline-block",
         "height": 28,
         "left": 0,
@@ -131,10 +109,6 @@ exports[`SwitchX.dom with isDisabled set to true renders snapshot 1`] = `
   onClick={[Function]}
   style={
     Object {
-      "MozTransition": "0.2s",
-      "MozUserSelect": "none",
-      "WebkitTransition": "0.2s",
-      "WebkitUserSelect": "none",
       "backgroundColor": "rgba(255, 255, 255, 1)",
       "border": "1px solid rgba(223, 223, 223, 1)",
       "borderRadius": 15,
@@ -142,7 +116,6 @@ exports[`SwitchX.dom with isDisabled set to true renders snapshot 1`] = `
       "boxSizing": "border-box",
       "display": "inline-block",
       "height": 30,
-      "msUserSelect": "none",
       "opacity": 1,
       "position": "relative",
       "transition": "0.2s",
@@ -156,16 +129,10 @@ exports[`SwitchX.dom with isDisabled set to true renders snapshot 1`] = `
     onMouseDown={[Function]}
     style={
       Object {
-        "MozTransition": "0.2s",
-        "WebkitTransition": "0.2s",
         "backgroundColor": "rgb(255,255,255)",
         "borderRadius": "100%",
         "boxShadow": "0 1px 3px rgba(0, 0, 0, 0.4)",
-        "cursor": Array [
-          "-webkit-grab",
-          "-moz-grab",
-          "grab",
-        ],
+        "cursor": "grab",
         "display": "inline-block",
         "height": 28,
         "left": 0,
@@ -194,10 +161,6 @@ exports[`SwitchX.dom with isOn set to false renders snapshot 1`] = `
   onClick={[Function]}
   style={
     Object {
-      "MozTransition": "0.2s",
-      "MozUserSelect": "none",
-      "WebkitTransition": "0.2s",
-      "WebkitUserSelect": "none",
       "backgroundColor": "rgba(255, 255, 255, 1)",
       "border": "1px solid rgba(223, 223, 223, 1)",
       "borderRadius": 15,
@@ -205,7 +168,6 @@ exports[`SwitchX.dom with isOn set to false renders snapshot 1`] = `
       "boxSizing": "border-box",
       "display": "inline-block",
       "height": 30,
-      "msUserSelect": "none",
       "opacity": 1,
       "position": "relative",
       "transition": "0.2s",
@@ -219,16 +181,10 @@ exports[`SwitchX.dom with isOn set to false renders snapshot 1`] = `
     onMouseDown={[Function]}
     style={
       Object {
-        "MozTransition": "0.2s",
-        "WebkitTransition": "0.2s",
         "backgroundColor": "rgb(255,255,255)",
         "borderRadius": "100%",
         "boxShadow": "0 1px 3px rgba(0, 0, 0, 0.4)",
-        "cursor": Array [
-          "-webkit-grab",
-          "-moz-grab",
-          "grab",
-        ],
+        "cursor": "grab",
         "display": "inline-block",
         "height": 28,
         "left": 0,
@@ -257,10 +213,6 @@ exports[`SwitchX.dom with isOn set to true renders snapshot 1`] = `
   onClick={[Function]}
   style={
     Object {
-      "MozTransition": "0.2s",
-      "MozUserSelect": "none",
-      "WebkitTransition": "0.2s",
-      "WebkitUserSelect": "none",
       "backgroundColor": "rgba(0, 0, 0, 1)",
       "border": "1px solid rgba(0, 0, 0, 1)",
       "borderRadius": 15,
@@ -268,7 +220,6 @@ exports[`SwitchX.dom with isOn set to true renders snapshot 1`] = `
       "boxSizing": "border-box",
       "display": "inline-block",
       "height": 30,
-      "msUserSelect": "none",
       "opacity": 1,
       "position": "relative",
       "transition": "0.2s",
@@ -282,16 +233,10 @@ exports[`SwitchX.dom with isOn set to true renders snapshot 1`] = `
     onMouseDown={[Function]}
     style={
       Object {
-        "MozTransition": "0.2s",
-        "WebkitTransition": "0.2s",
         "backgroundColor": "rgb(255,255,255)",
         "borderRadius": "100%",
         "boxShadow": "0 1px 3px rgba(0, 0, 0, 0.4)",
-        "cursor": Array [
-          "-webkit-grab",
-          "-moz-grab",
-          "grab",
-        ],
+        "cursor": "grab",
         "display": "inline-block",
         "height": 28,
         "left": 20,
