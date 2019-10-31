@@ -15,6 +15,7 @@
     "build"
   ],
   "dependencies": {
+    "exenv": "1.2.2",
     "react-native": "0.59.8",
     "react-native-geolocation-service": "3.0.0"
   },
