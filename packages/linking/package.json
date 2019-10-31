@@ -1,0 +1,26 @@
+{
+  "name": "@react-x/linking",
+  "version": "3.0.0",
+  "description": "Cross-platform linking for ReactDOM and React Native apps.",
+  "license": "MIT",
+  "author": "Mark Miyashita <mark@miyashita.co>",
+  "homepage": "https://github.com/negativetwelve/react-x",
+  "repository": "https://github.com/negativetwelve/react-x",
+  "keywords": [
+    "react",
+    "react-x"
+  ],
+  "main": "build/Linking",
+  "files": [
+    "build"
+  ],
+  "dependencies": {
+    "react-native": "0.59.8",
+    "react-native-web": "0.11.4"
+  },
+  "scripts": {
+    "build": "babel src --out-dir build --ignore \"**/__tests__/**\"",
+    "clean": "rimraf build",
+    "prepublishOnly": "yarn run clean && yarn run build"
+  }
+}
