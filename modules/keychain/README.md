@@ -1,17 +1,17 @@
-# react-x-keychain
+# @react-x/keychain
 
-[![npm](https://img.shields.io/npm/v/react-x-keychain.svg)](https://www.npmjs.com/package/react-x-keychain)
-[![npm](https://img.shields.io/npm/dt/react-x-keychain.svg)](https://www.npmjs.com/package/react-x-keychain)
-[![npm](https://img.shields.io/npm/l/react-x-keychain.svg)](https://github.com/negativetwelve/react-x/blob/master/LICENSE)
+[![npm](https://img.shields.io/npm/v/@react-x/keychain.svg)](https://www.npmjs.com/package/@react-x/keychain)
+[![npm](https://img.shields.io/npm/dt/@react-x/keychain.svg)](https://www.npmjs.com/package/@react-x/keychain)
+[![npm](https://img.shields.io/npm/l/@react-x/keychain.svg)](https://github.com/negativetwelve/react-x/blob/master/LICENSE)
 
 Cross-platform persistent storage for ReactDOM (cookies) and React Native (keychain) apps.
 
 ## Getting Started
 
-Install `react-x-keychain` using `yarn`:
+Install `@react-x/keychain` using `yarn`:
 
 ```shell
-yarn add react-x-keychain
+yarn add @react-x/keychain
 ```
 
 ## Setup
@@ -30,7 +30,7 @@ This module is backed on the native side by [`react-native-keychain`](https://gi
 import React from 'react';
 import PropTypes from 'prop-types';
 import {Text, View} from 'react-native';
-import Keychain from 'react-x-keychain';
+import Keychain from '@react-x/keychain';
 
 
 class App extends React.Component {
