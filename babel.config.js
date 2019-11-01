@@ -1,5 +1,5 @@
 module.exports = {
   presets: [
-    'module:babel-preset-react-x',
+    'module:@react-x/babel-preset',
   ],
 };

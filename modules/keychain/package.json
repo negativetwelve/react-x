@@ -1,0 +1,30 @@
+{
+  "name": "@react-x/keychain",
+  "version": "3.0.0",
+  "description": "Cross-platform persistent storage for ReactDOM (cookies) and React Native (keychain) apps.",
+  "license": "MIT",
+  "author": "Mark Miyashita <mark@miyashita.co>",
+  "homepage": "https://github.com/negativetwelve/react-x",
+  "repository": "https://github.com/negativetwelve/react-x/tree/master/modules/keychain",
+  "keywords": [
+    "react",
+    "react-native",
+    "react-x"
+  ],
+  "main": "build/Keychain",
+  "files": [
+    "build"
+  ],
+  "dependencies": {
+    "cookies-js": "^1.2.3",
+    "invariant": "^2.2.2",
+    "lodash.omit": "^4.5.0",
+    "lodash.pick": "^4.4.0",
+    "react-native-keychain": "2.0.0-rc"
+  },
+  "scripts": {
+    "build": "babel src --out-dir build --ignore \"**/__tests__/**\"",
+    "clean": "rimraf build",
+    "prepublishOnly": "yarn run clean && yarn run build"
+  }
+}

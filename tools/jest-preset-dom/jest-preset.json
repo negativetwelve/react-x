@@ -1,0 +1,13 @@
+{
+  "moduleFileExtensions": ["js", "dom.js"],
+  "moduleNameMapper": {
+    "\\.(css|less|sass)$": "identity-obj-proxy"
+  },
+  "setupFiles": ["jest-localstorage-mock"],
+  "setupTestFrameworkScriptFile": "@react-x/jest-preset-dom/setup.js",
+  "testEnvironment": "node",
+  "testMatch": ["**/?(*.)spec.js", "**/?(*.)spec.dom.js"],
+  "transformIgnorePatterns": [
+    "node_modules/(?!react-native-web|react-primitives)"
+  ]
+}

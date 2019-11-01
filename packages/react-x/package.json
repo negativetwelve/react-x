@@ -3,7 +3,7 @@
   "version": "3.0.0",
   "description": "Cross-platform React interfaces for ReactDOM and React Native.",
   "license": "MIT",
-  "author": "Mark Miyashita <negativetwelve@gmail.com>",
+  "author": "Mark Miyashita <mark@miyashita.co>",
   "homepage": "https://github.com/negativetwelve/react-x",
   "repository": "https://github.com/negativetwelve/react-x/tree/master/packages/react-x",
   "keywords": [
@@ -19,14 +19,13 @@
     "build"
   ],
   "dependencies": {
-    "react-x-clipboard": "3.0.0",
-    "react-x-keychain": "3.0.0",
-    "react-x-primitives": "3.0.0",
-    "react-x-render": "3.0.0",
-    "react-x-storage": "3.0.0",
-    "react-x-svg": "3.0.0",
-    "react-x-switch": "3.0.0",
-    "react-x-text-input": "3.0.0"
+    "@react-x/clipboard": "3.0.0",
+    "@react-x/keychain": "3.0.0",
+    "@react-x/primitives": "3.0.0",
+    "@react-x/storage": "3.0.0",
+    "@react-x/svg": "3.0.0",
+    "@react-x/switch": "3.0.0",
+    "@react-x/text-input": "3.0.0"
   },
   "peerDependencies": {
     "react": "*"

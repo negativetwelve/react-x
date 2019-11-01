@@ -6,7 +6,8 @@
     "yarn": ">=1.0.1"
   },
   "devDependencies": {
-    "babel-preset-react-x": "2.11.0",
+    "@babel/core": "^7.4.4",
+    "@react-x/babel-preset": "3.0.0",
     "coveralls": "^2.13.1",
     "eslint": "^4.4.1",
     "eslint-config-jolt": "^2.6.1",
@@ -43,7 +44,10 @@
   },
   "workspaces": {
     "packages": [
-      "packages/*"
+      "components/*",
+      "modules/*",
+      "packages/*",
+      "tools/*"
     ]
   },
   "scripts": {

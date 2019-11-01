@@ -25,7 +25,6 @@ describe('ReactX', () => {
     const components = [
       // TODO(mark): Can't test SVG because it is a set of components.
       'Image',
-      'Render',
       'Switch',
       'Text',
       'TextInput',

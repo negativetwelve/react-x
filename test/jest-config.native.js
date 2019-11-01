@@ -1,4 +1,4 @@
 module.exports = {
   rootDir: '../',
-  preset: 'jest-preset-react-x-native',
+  preset: '@react-x/jest-preset-native',
 };

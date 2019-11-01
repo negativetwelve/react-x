@@ -1,0 +1,29 @@
+{
+  "name": "@react-x/primitives",
+  "version": "3.0.0",
+  "description": "Set of primitive components to render React and React Native.",
+  "license": "MIT",
+  "author": "Mark Miyashita <mark@miyashita.co>",
+  "homepage": "https://github.com/negativetwelve/react-x",
+  "repository": "https://github.com/negativetwelve/react-x/tree/master/components/primitives",
+  "keywords": [
+    "react",
+    "react-native",
+    "react-x"
+  ],
+  "main": "build/Primitives",
+  "files": [
+    "build"
+  ],
+  "dependencies": {
+    "react-primitives": "0.8.0"
+  },
+  "peerDependencies": {
+    "react": "*"
+  },
+  "scripts": {
+    "build": "babel src --out-dir build --ignore \"**/__tests__/**\"",
+    "clean": "rimraf build",
+    "prepublishOnly": "yarn run clean && yarn run build"
+  }
+}

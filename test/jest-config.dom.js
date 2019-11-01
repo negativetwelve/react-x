@@ -1,4 +1,4 @@
 module.exports = {
   rootDir: '../',
-  preset: 'jest-preset-react-x-dom',
+  preset: '@react-x/jest-preset-dom',
 };

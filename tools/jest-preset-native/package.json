@@ -1,0 +1,28 @@
+{
+  "name": "@react-x/jest-preset-native",
+  "version": "3.0.0",
+  "description": "Default jest configuration for react-x for native components.",
+  "license": "MIT",
+  "author": "Mark Miyashita <mark@miyashita.co>",
+  "homepage": "https://github.com/negativetwelve/react-x",
+  "repository": "https://github.com/negativetwelve/react-x/tree/master/tools/jest-preset-native",
+  "keywords": [
+    "jest",
+    "preset",
+    "react-x",
+    "test"
+  ],
+  "files": [
+    "jest-preset.json",
+    "setup.js"
+  ],
+  "dependencies": {
+    "jest-plugins": "^2.9.0",
+    "jest-plugins-react": "^2.9.0",
+    "jest-plugins-recommended": "^2.9.0",
+    "mock-async-storage": "2.1.0"
+  },
+  "peerDependencies": {
+    "jest": "*"
+  }
+}
