@@ -40,10 +40,10 @@ module.exports = {
 
 Name | Version | Description
 -----|---------|------------
-[`@react-x/primitives`](/packages/@react-x/primitives) | [![npm](https://img.shields.io/npm/v/@react-x/primitives.svg)][npm-primitives] | Set of primitive components to render across targets.
-[`@react-x/svg`](/packages/@react-x/svg) | [![npm](https://img.shields.io/npm/v/@react-x/svg.svg)][npm-svg] | Cross-platform SVG support for ReactDOM and React Native.
-[`@react-x/switch`](/packages/@react-x/switch) | [![npm](https://img.shields.io/npm/v/@react-x/switch.svg)][npm-switch] | Switch component for toggling on/off.
-[`@react-x/text-input`](/packages/@react-x/text-input) | [![npm](https://img.shields.io/npm/v/@react-x/text-input.svg)][npm-text-input] | TextInput component ReactDOM and React Native.
+[`@react-x/primitives`](/components/primitives) | [![npm](https://img.shields.io/npm/v/@react-x/primitives.svg)][npm-primitives] | Set of primitive components to render across targets.
+[`@react-x/svg`](/components/svg) | [![npm](https://img.shields.io/npm/v/@react-x/svg.svg)][npm-svg] | Cross-platform SVG support for ReactDOM and React Native.
+[`@react-x/switch`](/components/switch) | [![npm](https://img.shields.io/npm/v/@react-x/switch.svg)][npm-switch] | Switch component for toggling on/off.
+[`@react-x/text-input`](/components/text-input) | [![npm](https://img.shields.io/npm/v/@react-x/text-input.svg)][npm-text-input] | TextInput component ReactDOM and React Native.
 
 [npm-primitives]: https://www.npmjs.com/package/@react-x/primitives
 [npm-render]: https://www.npmjs.com/package/@react-x/render
@@ -55,11 +55,11 @@ Name | Version | Description
 
 Name | Version | Description
 -----|---------|------------
-[`@react-x/clipboard`](/packages/@react-x/clipboard) | [![npm](https://img.shields.io/npm/v/@react-x/clipboard.svg)][npm-clipboard] | Clipboard module for React DOM and React Native.
-[`@react-x/geolocation`](/packages/@react-x/geolocation) | [![npm](https://img.shields.io/npm/v/@react-x/geolocation.svg)][npm-geolocation] | Geolocation module for React DOM and React Native.
-[`@react-x/keychain`](/packages/@react-x/keychain) | [![npm](https://img.shields.io/npm/v/@react-x/keychain.svg)][npm-keychain] | Persistent storage for React DOM (cookies) and React Native (keychain).
-[`@react-x/linking`](/packages/@react-x/linking) | [![npm](https://img.shields.io/npm/v/@react-x/linking.svg)][npm-linking] | Linking module for React DOM and React Native.
-[`@react-x/storage`](/packages/@react-x/storage) | [![npm](https://img.shields.io/npm/v/@react-x/storage.svg)][npm-storage] | Storage module for React DOM and React Native.
+[`@react-x/clipboard`](/modules/clipboard) | [![npm](https://img.shields.io/npm/v/@react-x/clipboard.svg)][npm-clipboard] | Clipboard module for React DOM and React Native.
+[`@react-x/geolocation`](/modules/geolocation) | [![npm](https://img.shields.io/npm/v/@react-x/geolocation.svg)][npm-geolocation] | Geolocation module for React DOM and React Native.
+[`@react-x/keychain`](/modules/keychain) | [![npm](https://img.shields.io/npm/v/@react-x/keychain.svg)][npm-keychain] | Persistent storage for React DOM (cookies) and React Native (keychain).
+[`@react-x/linking`](/modules/linking) | [![npm](https://img.shields.io/npm/v/@react-x/linking.svg)][npm-linking] | Linking module for React DOM and React Native.
+[`@react-x/storage`](/modules/storage) | [![npm](https://img.shields.io/npm/v/@react-x/storage.svg)][npm-storage] | Storage module for React DOM and React Native.
 
 [npm-clipboard]: https://www.npmjs.com/package/@react-x/clipboard
 [npm-geolocation]: https://www.npmjs.com/package/@react-x/geolocation
@@ -71,9 +71,9 @@ Name | Version | Description
 
 Name | Version | Description
 -----|---------|------------
-[`@react-x/babel-preset`](/packages/@react-x/babel-preset) | [![npm](https://img.shields.io/npm/v/@react-x/babel-preset.svg)][npm-babel-preset] | Babel preset for compiling react-x packages.
-[`@react-x/jest-preset-dom`](/packages/@react-x/jest-preset-dom) | [![npm](https://img.shields.io/npm/v/@react-x/jest-preset-dom.svg)][npm-jest-preset-dom] | Jest preset for testing react-x dom packages.
-[`@react-x/jest-preset-native`](/packages/@react-x/jest-preset-native) | [![npm](https://img.shields.io/npm/v/@react-x/jest-preset-native.svg)][npm-jest-preset-native] | Jest preset for testing react-x native packages.
+[`@react-x/babel-preset`](/tools/babel-preset) | [![npm](https://img.shields.io/npm/v/@react-x/babel-preset.svg)][npm-babel-preset] | Babel preset for compiling react-x packages.
+[`@react-x/jest-preset-dom`](/tools/jest-preset-dom) | [![npm](https://img.shields.io/npm/v/@react-x/jest-preset-dom.svg)][npm-jest-preset-dom] | Jest preset for testing react-x dom packages.
+[`@react-x/jest-preset-native`](/tools/jest-preset-native) | [![npm](https://img.shields.io/npm/v/@react-x/jest-preset-native.svg)][npm-jest-preset-native] | Jest preset for testing react-x native packages.
 
 [npm-babel-preset]: https://www.npmjs.com/package/@react-x/babel-preset
 [npm-jest-preset-dom]: https://www.npmjs.com/package/@react-x/jest-preset-dom
