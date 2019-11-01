@@ -1,6 +1,6 @@
 {
   "name": "@react-x/babel-preset",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "devDependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.4",
