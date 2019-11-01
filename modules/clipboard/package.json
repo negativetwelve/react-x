@@ -1,21 +1,15 @@
 {
-  "name": "react-x-clipboard",
+  "name": "@react-x/clipboard",
   "version": "3.0.0",
   "description": "Cross-platform clipboard for ReactDOM and React Native apps.",
   "license": "MIT",
   "author": "Mark Miyashita <mark@miyashita.co>",
   "homepage": "https://github.com/negativetwelve/react-x",
-  "repository": "https://github.com/negativetwelve/react-x/tree/master/packages/react-x-clipboard",
+  "repository": "https://github.com/negativetwelve/react-x/tree/master/modules/clipboard",
   "keywords": [
-    "clipboard",
-    "copy",
-    "cross-platform",
-    "paste",
-    "platform",
     "react",
     "react-native",
-    "react-x",
-    "react-x-api"
+    "react-x"
   ],
   "main": "build/Clipboard",
   "files": [
