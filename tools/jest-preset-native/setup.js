@@ -18,12 +18,12 @@ jest.mock('react-native', () => ({
   // will need to be updated once this mock is complete.
 
   // APIs
-  AsyncStorage: new MockAsyncStorage(), // react-x-storage
-  NativeModules: {}, // react-x-keychain
+  AsyncStorage: new MockAsyncStorage(), // @react-x/storage
+  NativeModules: {}, // @react-x/keychain
 
   // Components
-  Switch: () => null, // react-x-switch
-  TextInput: () => null, // react-x-text-input
+  Switch: () => null, // @react-x/switch
+  TextInput: () => null, // @react-x/text-input
 }), {virtual: true});
 
 // Mock out react-native-svg since we don't have the native components.
