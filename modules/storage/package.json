@@ -3,7 +3,7 @@
   "version": "3.0.0",
   "description": "Cross-platform storage for ReactDOM (localStorage) and React Native (AsyncStorage) apps.",
   "license": "MIT",
-  "author": "Mark Miyashita <negativetwelve@gmail.com>",
+  "author": "Mark Miyashita <mark@miyashita.co>",
   "homepage": "https://github.com/negativetwelve/react-x",
   "repository": "https://github.com/negativetwelve/react-x/tree/master/packages/react-x-storage",
   "keywords": [

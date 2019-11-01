@@ -3,7 +3,7 @@
   "version": "3.0.0",
   "description": "Default jest configuration for react-x for dom components.",
   "license": "MIT",
-  "author": "Mark Miyashita <negativetwelve@gmail.com>",
+  "author": "Mark Miyashita <mark@miyashita.co>",
   "homepage": "https://github.com/negativetwelve/react-x",
   "repository": "https://github.com/negativetwelve/react-x/tree/master/packages/jest-preset-react-x-dom",
   "keywords": [

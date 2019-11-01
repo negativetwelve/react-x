@@ -1,23 +1,23 @@
-# react-x-text-input
+# @react-x/text-input
 
-[![npm](https://img.shields.io/npm/v/react-x-text-input.svg)](https://www.npmjs.com/package/react-x-text-input)
-[![npm](https://img.shields.io/npm/dt/react-x-text-input.svg)](https://www.npmjs.com/package/react-x-text-input)
-[![npm](https://img.shields.io/npm/l/react-x-text-input.svg)](https://github.com/negativetwelve/react-x/blob/master/LICENSE)
+[![npm](https://img.shields.io/npm/v/@react-x/text-input.svg)](https://www.npmjs.com/package/@react-x/text-input)
+[![npm](https://img.shields.io/npm/dt/@react-x/text-input.svg)](https://www.npmjs.com/package/@react-x/text-input)
+[![npm](https://img.shields.io/npm/l/@react-x/text-input.svg)](https://github.com/negativetwelve/react-x/blob/master/LICENSE)
 
 Cross-platform TextInput component for React and React Native.
 
 ## Getting Started
 
-Install `react-x-text-input` using `yarn`:
+Install `@react-x/text-input` using `yarn`:
 
 ```shell
-yarn add react-x-text-input
+yarn add @react-x/text-input
 ```
 
 ## Usage
 
 ```javascript
-import TextInput from 'react-x-text-input';
+import TextInput from '@react-x/text-input';
 ```
 
 ## Props

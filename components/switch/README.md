@@ -1,23 +1,23 @@
-# react-x-switch
+# @react-x/switch
 
-[![npm](https://img.shields.io/npm/v/react-x-switch.svg)](https://www.npmjs.com/package/react-x-switch)
-[![npm](https://img.shields.io/npm/dt/react-x-switch.svg)](https://www.npmjs.com/package/react-x-switch)
-[![npm](https://img.shields.io/npm/l/react-x-switch.svg)](https://github.com/negativetwelve/react-x/blob/master/LICENSE)
+[![npm](https://img.shields.io/npm/v/@react-x/switch.svg)](https://www.npmjs.com/package/@react-x/switch)
+[![npm](https://img.shields.io/npm/dt/@react-x/switch.svg)](https://www.npmjs.com/package/@react-x/switch)
+[![npm](https://img.shields.io/npm/l/@react-x/switch.svg)](https://github.com/negativetwelve/react-x/blob/master/LICENSE)
 
 Cross-platform Switch component for React and React Native.
 
 ## Getting Started
 
-Install `react-x-switch` using `yarn`:
+Install `@react-x/switch` using `yarn`:
 
 ```shell
-yarn add react-x-switch
+yarn add @react-x/switch
 ```
 
 ## Usage
 
 ```javascript
-import Switch from 'react-x-switch';
+import Switch from '@react-x/switch';
 ```
 
 ## Props
