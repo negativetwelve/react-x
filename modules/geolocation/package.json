@@ -16,8 +16,10 @@
   ],
   "dependencies": {
     "exenv": "1.2.2",
-    "react-native": "0.59.8",
     "react-native-geolocation-service": "3.0.0"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.59.8"
   },
   "scripts": {
     "build": "babel src --out-dir build --ignore \"**/__tests__/**\"",

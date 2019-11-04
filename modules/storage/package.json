@@ -15,8 +15,8 @@
   "files": [
     "build"
   ],
-  "dependencies": {
-    "react-native": "0.59.8"
+  "peerDependencies": {
+    "react-native": ">=0.59.8"
   },
   "scripts": {
     "build": "babel src --out-dir build --ignore \"**/__tests__/**\"",

@@ -19,7 +19,9 @@
     "react-primitives": "0.8.0"
   },
   "peerDependencies": {
-    "react": "*"
+    "react": ">=16.8.3",
+    "react-art": ">=16.8.3",
+    "react-native-web": ">=0.11.4"
   },
   "scripts": {
     "build": "babel src --out-dir build --ignore \"**/__tests__/**\"",
