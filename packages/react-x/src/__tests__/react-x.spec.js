@@ -1,5 +1,4 @@
 // Modules
-import React from 'react';
 import ReactX from '../react-x';
 
 /* eslint-disable no-undef */

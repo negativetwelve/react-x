@@ -10,7 +10,6 @@ import KeychainX from './KeychainX';
  * Persistent secure storage for all apps.
  */
 class Keychain {
-
   // --------------------------------------------------
   // Initialize
   // --------------------------------------------------
@@ -48,10 +47,7 @@ class Keychain {
   // Private
   // --------------------------------------------------
   assertInitialized(method) {
-    invariant(
-      this.initialized,
-      `Keychain calling '${method}' before it has been initialized.`,
-    );
+    invariant(this.initialized, 'Keychain calling method before it has been initialized.');
   }
 
   async setEntries(entries = {}) {
@@ -76,7 +72,6 @@ class Keychain {
     this.all = omit(this.all, keys);
     return this.keychain.clearKeys(keys, this.all, this.options);
   }
-
 }
 
 

@@ -1,6 +1,6 @@
 // Modules
 import React from 'react';
-import {View, Text, Image, Touchable, StyleSheet, Animated} from '../Primitives';
+import {View, Text, Image, Touchable} from '../Primitives';
 
 /* eslint-disable no-undef */
 describe('Primitives', () => {

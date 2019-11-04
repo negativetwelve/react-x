@@ -6,31 +6,22 @@
     "yarn": ">=1.0.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.4",
-    "@react-x/babel-preset": "3.0.0",
-    "coveralls": "^2.13.1",
-    "eslint": "^4.4.1",
-    "eslint-config-jolt": "^2.6.1",
-    "eslint-plugin-jest": "^21.0.2",
-    "husky": "^0.14.3",
-    "jest": "^24.8.0",
+    "@babel/core": "7.6.2",
+    "coveralls": "3.0.7",
+    "husky": "0.14.3",
+    "jest": "24.8.0",
     "lerna": "3.18.3",
-    "lint-staged": "^4.0.3",
+    "lint-staged": "4.0.3",
     "react": "16.8.3",
     "react-art": "16.8.3",
     "react-dom": "16.8.3",
     "react-native": "0.59.8",
     "react-native-web": "0.11.4",
-    "rimraf": "^2.6.1"
+    "rimraf": "2.6.1"
   },
-  "eslintConfig": {
-    "extends": "jolt"
+  "resolutions": {
+    "react-test-renderer": "16.8.3"
   },
-  "eslintIgnore": [
-    "build",
-    "coverage",
-    "node_modules"
-  ],
   "jest": {
     "projects": [
       "test/jest-config.dom.js",

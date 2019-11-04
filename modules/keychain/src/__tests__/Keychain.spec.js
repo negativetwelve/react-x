@@ -80,7 +80,9 @@ describe('Keychain', () => {
           context('with keys in all', () => {
             set('key', () => 'test');
             set('all', () => ({test: 'value'}));
-            beforeEach(() => keychain.all = all);
+            beforeEach(() => {
+              keychain.all = all;
+            });
 
             it('should return the value', () => {
               expect(get()).toEqual('value');

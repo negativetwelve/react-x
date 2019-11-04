@@ -1,6 +1,5 @@
 // Libraries
 import * as RNKeychain from 'react-native-keychain';
-import omit from 'lodash.omit';
 import pick from 'lodash.pick';
 
 
@@ -9,7 +8,6 @@ import pick from 'lodash.pick';
  * native keychain module on iOS and shared preferences on Android.
  */
 class KeychainX {
-
   constructor({namespace}) {
     this.namespace = namespace;
   }
@@ -18,7 +16,7 @@ class KeychainX {
     try {
       // We store all key/values in the password field.
       const data = await RNKeychain.getGenericPassword(this.namespace);
-      const {username, password} = data;
+      const {password} = data;
       const all = JSON.parse(password);
 
       // Only return the key / values for the keys we specified.
@@ -49,7 +47,6 @@ class KeychainX {
     // Set the remaining values on the keychain again.
     return this.save(all);
   }
-
 }
 
 
