@@ -16,13 +16,13 @@
     "build"
   ],
   "dependencies": {
-    "prop-types": "^15.6.1",
+    "prop-types": "15.7.2",
     "react-native-svg": "^6.3.1"
   },
   "peerDependencies": {
-    "react": "*",
-    "react-dom": "*",
-    "react-native": "*"
+    "react": ">=16.8.3",
+    "react-dom": ">=16.8.3",
+    "react-native": ">=0.59.8"
   },
   "scripts": {
     "build": "babel src --out-dir build --ignore \"**/__tests__/**\"",
