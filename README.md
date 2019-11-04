@@ -59,12 +59,14 @@ Name | Version | Description
 [`@react-x/geolocation`](/modules/geolocation) | [![npm](https://img.shields.io/npm/v/@react-x/geolocation.svg)][npm-geolocation] | Geolocation module for React DOM and React Native.
 [`@react-x/keychain`](/modules/keychain) | [![npm](https://img.shields.io/npm/v/@react-x/keychain.svg)][npm-keychain] | Persistent storage for React DOM (cookies) and React Native (keychain).
 [`@react-x/linking`](/modules/linking) | [![npm](https://img.shields.io/npm/v/@react-x/linking.svg)][npm-linking] | Linking module for React DOM and React Native.
+[`@react-x/platform`](/modules/platform) | [![npm](https://img.shields.io/npm/v/@react-x/platform.svg)][npm-platform] | Platform module for React DOM and React Native.
 [`@react-x/storage`](/modules/storage) | [![npm](https://img.shields.io/npm/v/@react-x/storage.svg)][npm-storage] | Storage module for React DOM and React Native.
 
 [npm-clipboard]: https://www.npmjs.com/package/@react-x/clipboard
 [npm-geolocation]: https://www.npmjs.com/package/@react-x/geolocation
 [npm-keychain]: https://www.npmjs.com/package/@react-x/keychain
 [npm-linking]: https://www.npmjs.com/package/@react-x/linking
+[npm-platform]: https://www.npmjs.com/package/@react-x/platform
 [npm-storage]: https://www.npmjs.com/package/@react-x/storage
 
 ## Tools
