@@ -1,0 +1,19 @@
+{
+  "name": "@react-x/eslint-config",
+  "version": "3.1.0",
+  "main": "src/eslintrc.js",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "1.13.0",
+    "@typescript-eslint/parser": "1.13.0",
+    "babel-eslint": "10.0.3",
+    "eslint": "5.16.0",
+    "eslint-config-airbnb": "18.0.1",
+    "eslint-config-react-app": "4.0.1",
+    "eslint-plugin-flowtype": "2.50.3",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-react": "7.16.0",
+    "eslint-plugin-react-hooks": "1.7.0",
+    "typescript": "3.6.4"
+  }
+}
