@@ -6,7 +6,6 @@ import Cookies from 'cookies-js';
  * Persistent secure storage for the web. Wrapper around Cookies for the web.
  */
 class KeychainX {
-
   async getEntries(keys = []) {
     const accumulate = (all, key) => {
       all[key] = Cookies.get(key);
@@ -25,7 +24,6 @@ class KeychainX {
   async clearKeys(keys = [], all = {}, options = {}) {
     return keys.map((key) => Cookies.expire(key, options));
   }
-
 }
 
 
