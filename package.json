@@ -19,6 +19,9 @@
     "react-native-web": "0.11.4",
     "rimraf": "2.6.1"
   },
+  "resolutions": {
+    "react-test-renderer": "16.8.3"
+  },
   "jest": {
     "projects": [
       "test/jest-config.dom.js",
