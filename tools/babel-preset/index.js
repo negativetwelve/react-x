@@ -6,6 +6,7 @@ module.exports = (context, options = {}) => {
     ],
     plugins: [
       '@babel/plugin-proposal-class-properties',
+      '@babel/plugin-transform-flow-strip-types',
       '@babel/plugin-transform-runtime',
     ],
   };
