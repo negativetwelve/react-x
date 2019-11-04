@@ -2199,11 +2199,6 @@
   resolved "https://registry.yarnpkg.com/@react-native-community/geolocation/-/geolocation-1.4.2.tgz#7228c6d37c2f55017af9c49c2b9ad586d9bcb9f8"
   integrity sha512-9x9dHDeUXnh2larA4zTT3y/tXPmRnysh5o9fsNbGcnUKPj1BUCIHnGGPxEIDnwP1DNIMP2DN9DmuMHImtTbX6A==
 
-"@react-x/babel-preset@3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@react-x/babel-preset/-/babel-preset-3.0.0.tgz#835898e84bbdd379d0b6b4bd0f953b6d176b8ecf"
-  integrity sha512-gsReWmVpcqu8ck7jj3LPTukCDzJyrlkogF0aQK+pj6T2qrNpTYHo3g6L/3OO+GQiLheMEvbEOJtF0XMKwuGZOQ==
-
 "@types/babel__core@^7.1.0":
   version "7.1.1"
   resolved "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.1.1.tgz#ce9a9e5d92b7031421e1d0d74ae59f572ba48be6"
