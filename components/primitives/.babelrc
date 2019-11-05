@@ -1,5 +1,0 @@
-{
-  "presets": [
-    "module:@react-x/babel-preset"
-  ]
-}
