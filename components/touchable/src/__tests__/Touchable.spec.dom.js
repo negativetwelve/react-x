@@ -1,14 +1,14 @@
 // Modules
 import React from 'react';
-import Text from '../Text';
+import Touchable from '../Touchable';
 
 /* eslint-disable no-undef */
-describe('Text', () => {
+describe('Touchable', () => {
   context('with no props', () => {
-    itRenders(() => <Text />);
+    itRenders(() => <Touchable />);
   });
 
   context('with style prop', () => {
-    itRenders(() => <Text style={{padding: 12}} />);
+    itRenders(() => <Touchable style={{padding: 12}} />);
   });
 });

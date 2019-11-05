@@ -1,1 +1,1 @@
-export {Text as default} from 'react-native-web';
+export {Touchable as default} from 'react-native-web';

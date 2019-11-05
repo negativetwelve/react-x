@@ -1,1 +1,1 @@
-export {Text as default} from 'react-native';
+export {View as default} from 'react-native';

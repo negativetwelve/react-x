@@ -1,14 +1,14 @@
 // Modules
 import React from 'react';
-import Text from '../Text';
+import Image from '../Image';
 
 /* eslint-disable no-undef */
-describe('Text', () => {
+describe('Image', () => {
   context('with no props', () => {
-    itRenders(() => <Text />);
+    itRenders(() => <Image />);
   });
 
   context('with style prop', () => {
-    itRenders(() => <Text style={{padding: 12}} />);
+    itRenders(() => <Image style={{padding: 12}} />);
   });
 });

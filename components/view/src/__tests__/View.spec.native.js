@@ -1,14 +1,14 @@
 // Modules
 import React from 'react';
-import Text from '../Text';
+import View from '../View';
 
 /* eslint-disable no-undef */
-describe('Text', () => {
+describe('View', () => {
   context('with no props', () => {
-    itRenders(() => <Text />);
+    itRenders(() => <View />);
   });
 
   context('with style prop', () => {
-    itRenders(() => <Text style={{padding: 12}} />);
+    itRenders(() => <View style={{padding: 12}} />);
   });
 });
