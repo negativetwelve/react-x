@@ -1,1 +1,1 @@
-export {Touchable as default} from 'react-native';
+export {TouchableWithoutFeedback as default} from 'react-native';

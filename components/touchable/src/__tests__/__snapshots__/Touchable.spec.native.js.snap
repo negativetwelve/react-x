@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Touchable with no props renders snapshot 1`] = `null`;
+
+exports[`Touchable with style prop renders snapshot 1`] = `null`;

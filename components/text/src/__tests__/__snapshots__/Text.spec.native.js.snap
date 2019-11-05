@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text with no props renders snapshot 1`] = `null`;
+
+exports[`Text with style prop renders snapshot 1`] = `null`;
