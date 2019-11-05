@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`View with no props renders snapshot 1`] = `
+<div
+  className="css-view-1dbjc4n"
+/>
+`;
+
+exports[`View with style prop renders snapshot 1`] = `
+<div
+  className="css-view-1dbjc4n"
+  style={
+    Object {
+      "paddingBottom": "12px",
+      "paddingLeft": "12px",
+      "paddingRight": "12px",
+      "paddingTop": "12px",
+    }
+  }
+/>
+`;

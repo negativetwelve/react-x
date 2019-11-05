@@ -3,23 +3,6 @@ import ReactX from '../react-x';
 
 /* eslint-disable no-undef */
 describe('ReactX', () => {
-  context('APIs', () => {
-    const apis = [
-      'Animated',
-      'Clipboard',
-      'Keychain',
-      'Platform',
-      'Storage',
-      'StyleSheet',
-    ];
-
-    forEach({api: apis}, () => {
-      it('should exist', () => {
-        expect(ReactX[api]).toBeDefined();
-      });
-    });
-  });
-
   context('Components', () => {
     const components = [
       // TODO(mark): Can't test SVG because it is a set of components.
@@ -38,6 +21,23 @@ describe('ReactX', () => {
 
       it('should be a component', () => {
         expect(ReactX[component]).toBeInstanceOf(Function);
+      });
+    });
+  });
+
+  context('Modules', () => {
+    const modules = [
+      'Animated',
+      'Clipboard',
+      'Keychain',
+      'Platform',
+      'Storage',
+      'StyleSheet',
+    ];
+
+    forEach({_module: modules}, () => {
+      it('should exist', () => {
+        expect(ReactX[_module]).toBeDefined();
       });
     });
   });

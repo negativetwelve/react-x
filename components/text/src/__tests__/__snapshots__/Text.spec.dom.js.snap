@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text with no props renders snapshot 1`] = `
+<div
+  className="css-text-901oao"
+  dir="auto"
+/>
+`;
+
+exports[`Text with style prop renders snapshot 1`] = `
+<div
+  className="css-text-901oao"
+  dir="auto"
+  style={
+    Object {
+      "paddingBottom": "12px",
+      "paddingLeft": "12px",
+      "paddingRight": "12px",
+      "paddingTop": "12px",
+    }
+  }
+/>
+`;
