@@ -21,10 +21,10 @@
   "dependencies": {
     "@react-x/clipboard": "3.2.0",
     "@react-x/keychain": "3.2.0",
-    "@react-x/primitives": "3.2.0",
     "@react-x/storage": "3.2.0",
     "@react-x/svg": "3.2.0",
     "@react-x/switch": "3.2.0",
+    "@react-x/text": "3.2.0",
     "@react-x/text-input": "3.2.0"
   },
   "peerDependencies": {
