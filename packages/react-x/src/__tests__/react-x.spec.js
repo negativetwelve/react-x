@@ -35,9 +35,9 @@ describe('ReactX', () => {
       'StyleSheet',
     ];
 
-    forEach({module: modules}, () => {
+    forEach({_module: modules}, () => {
       it('should exist', () => {
-        expect(ReactX[module]).toBeDefined();
+        expect(ReactX[_module]).toBeDefined();
       });
     });
   });

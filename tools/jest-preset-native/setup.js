@@ -18,8 +18,14 @@ jest.mock('react-native', () => ({
   // will need to be updated once this mock is complete.
 
   // Modules
-  AsyncStorage: new MockAsyncStorage(), // @react-x/storage
-  NativeModules: {}, // @react-x/keychain
+  Animated: {},
+  AsyncStorage: new MockAsyncStorage(),
+  Clipboard: {},
+  Geolocation: {},
+  Linking: {},
+  NativeModules: {},
+  Platform: {},
+  StyleSheet: {},
 
   // Components
   Image: () => null,
