@@ -29,9 +29,11 @@ jest.mock('react-native', () => ({
 
   // Components
   Image: () => null,
+  Modal: () => null,
   Switch: () => null,
   Text: () => null,
   TextInput: () => null,
+  TouchableOpacity: () => null,
   TouchableWithoutFeedback: () => null,
   View: () => null,
 }), {virtual: true});
