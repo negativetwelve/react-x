@@ -40,16 +40,23 @@ module.exports = {
 
 Name | Version | Description
 -----|---------|------------
-[`@react-x/primitives`](/components/primitives) | [![npm](https://img.shields.io/npm/v/@react-x/primitives.svg)][npm-primitives] | Set of primitive components to render across targets.
 [`@react-x/svg`](/components/svg) | [![npm](https://img.shields.io/npm/v/@react-x/svg.svg)][npm-svg] | Cross-platform SVG support for ReactDOM and React Native.
 [`@react-x/switch`](/components/switch) | [![npm](https://img.shields.io/npm/v/@react-x/switch.svg)][npm-switch] | Switch component for toggling on/off.
 [`@react-x/text-input`](/components/text-input) | [![npm](https://img.shields.io/npm/v/@react-x/text-input.svg)][npm-text-input] | TextInput component ReactDOM and React Native.
 
-[npm-primitives]: https://www.npmjs.com/package/@react-x/primitives
-[npm-render]: https://www.npmjs.com/package/@react-x/render
+[npm-activity-indicator]: https://www.npmjs.com/package/@react-x/activity-indicator
+[npm-flat-list]: https://www.npmjs.com/package/@react-x/flat-list
+[npm-image]: https://www.npmjs.com/package/@react-x/image
+[npm-keyboard-avoiding-view]: https://www.npmjs.com/package/@react-x/keyboard-avoiding-view
+[npm-safe-area-view]: https://www.npmjs.com/package/@react-x/safe-area-view
+[npm-scroll-view]: https://www.npmjs.com/package/@react-x/scroll-view
+[npm-section-list]: https://www.npmjs.com/package/@react-x/section-list
 [npm-svg]: https://www.npmjs.com/package/@react-x/svg
 [npm-switch]: https://www.npmjs.com/package/@react-x/switch
+[npm-text]: https://www.npmjs.com/package/@react-x/text
 [npm-text-input]: https://www.npmjs.com/package/@react-x/text-input
+[npm-touchable]: https://www.npmjs.com/package/@react-x/touchable
+[npm-view]: https://www.npmjs.com/package/@react-x/view
 
 ## Modules
 
@@ -62,12 +69,15 @@ Name | Version | Description
 [`@react-x/platform`](/modules/platform) | [![npm](https://img.shields.io/npm/v/@react-x/platform.svg)][npm-platform] | Platform module for React DOM and React Native.
 [`@react-x/storage`](/modules/storage) | [![npm](https://img.shields.io/npm/v/@react-x/storage.svg)][npm-storage] | Storage module for React DOM and React Native.
 
+[npm-animated]: https://www.npmjs.com/package/@react-x/animated
 [npm-clipboard]: https://www.npmjs.com/package/@react-x/clipboard
 [npm-geolocation]: https://www.npmjs.com/package/@react-x/geolocation
 [npm-keychain]: https://www.npmjs.com/package/@react-x/keychain
 [npm-linking]: https://www.npmjs.com/package/@react-x/linking
+[npm-net-info]: https://www.npmjs.com/package/@react-x/net-info
 [npm-platform]: https://www.npmjs.com/package/@react-x/platform
 [npm-storage]: https://www.npmjs.com/package/@react-x/storage
+[npm-style-sheet]: https://www.npmjs.com/package/@react-x/style-sheet
 
 ## Tools
 
