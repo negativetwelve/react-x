@@ -40,34 +40,57 @@ module.exports = {
 
 Name | Version | Description
 -----|---------|------------
-[`@react-x/primitives`](/components/primitives) | [![npm](https://img.shields.io/npm/v/@react-x/primitives.svg)][npm-primitives] | Set of primitive components to render across targets.
+[`@react-x/activity-indicator`](/components/activity-indicator) | [![npm](https://img.shields.io/npm/v/@react-x/activity-indicator.svg)][npm-activity-indicator] | Cross-platform ActivityIndicator component for ReactDOM and React Native.
+[`@react-x/flat-list`](/components/flat-list) | [![npm](https://img.shields.io/npm/v/@react-x/flat-list.svg)][npm-flat-list] | Cross-platform FlatList component for ReactDOM and React Native.
+[`@react-x/image`](/components/image) | [![npm](https://img.shields.io/npm/v/@react-x/image.svg)][npm-image] | Cross-platform Image component for ReactDOM and React Native.
+[`@react-x/keyboard-avoiding-view`](/components/keyboard-avoiding-view) | [![npm](https://img.shields.io/npm/v/@react-x/keyboard-avoiding-view.svg)][npm-keyboard-avoiding-view] | Cross-platform KeyboardAvoidingView component for ReactDOM and React Native.
+[`@react-x/safe-area-view`](/components/safe-area-view) | [![npm](https://img.shields.io/npm/v/@react-x/safe-area-view.svg)][npm-safe-area-view] | Cross-platform SafeAreaView component for ReactDOM and React Native.
+[`@react-x/scroll-view`](/components/scroll-view) | [![npm](https://img.shields.io/npm/v/@react-x/scroll-view.svg)][npm-scroll-view] | Cross-platform ScrollView component for ReactDOM and React Native.
+[`@react-x/section-list`](/components/section-list) | [![npm](https://img.shields.io/npm/v/@react-x/section-list.svg)][npm-section-list] | Cross-platform SectionList component for ReactDOM and React Native.
 [`@react-x/svg`](/components/svg) | [![npm](https://img.shields.io/npm/v/@react-x/svg.svg)][npm-svg] | Cross-platform SVG support for ReactDOM and React Native.
 [`@react-x/switch`](/components/switch) | [![npm](https://img.shields.io/npm/v/@react-x/switch.svg)][npm-switch] | Switch component for toggling on/off.
+[`@react-x/text`](/components/text) | [![npm](https://img.shields.io/npm/v/@react-x/text.svg)][npm-text] | Cross-platform Text component for ReactDOM and React Native.
 [`@react-x/text-input`](/components/text-input) | [![npm](https://img.shields.io/npm/v/@react-x/text-input.svg)][npm-text-input] | TextInput component ReactDOM and React Native.
+[`@react-x/touchable`](/components/touchable) | [![npm](https://img.shields.io/npm/v/@react-x/touchable.svg)][npm-touchable] | Cross-platform Touchable components for ReactDOM and React Native.
+[`@react-x/view`](/components/view) | [![npm](https://img.shields.io/npm/v/@react-x/view.svg)][npm-view] | Cross-platform View component for ReactDOM and React Native.
 
-[npm-primitives]: https://www.npmjs.com/package/@react-x/primitives
-[npm-render]: https://www.npmjs.com/package/@react-x/render
+[npm-activity-indicator]: https://www.npmjs.com/package/@react-x/activity-indicator
+[npm-flat-list]: https://www.npmjs.com/package/@react-x/flat-list
+[npm-image]: https://www.npmjs.com/package/@react-x/image
+[npm-keyboard-avoiding-view]: https://www.npmjs.com/package/@react-x/keyboard-avoiding-view
+[npm-safe-area-view]: https://www.npmjs.com/package/@react-x/safe-area-view
+[npm-scroll-view]: https://www.npmjs.com/package/@react-x/scroll-view
+[npm-section-list]: https://www.npmjs.com/package/@react-x/section-list
 [npm-svg]: https://www.npmjs.com/package/@react-x/svg
 [npm-switch]: https://www.npmjs.com/package/@react-x/switch
+[npm-text]: https://www.npmjs.com/package/@react-x/text
 [npm-text-input]: https://www.npmjs.com/package/@react-x/text-input
+[npm-touchable]: https://www.npmjs.com/package/@react-x/touchable
+[npm-view]: https://www.npmjs.com/package/@react-x/view
 
 ## Modules
 
 Name | Version | Description
 -----|---------|------------
+[`@react-x/animated`](/modules/animated) | [![npm](https://img.shields.io/npm/v/@react-x/animated.svg)][npm-animated] | Animated module for React DOM and React Native.
 [`@react-x/clipboard`](/modules/clipboard) | [![npm](https://img.shields.io/npm/v/@react-x/clipboard.svg)][npm-clipboard] | Clipboard module for React DOM and React Native.
 [`@react-x/geolocation`](/modules/geolocation) | [![npm](https://img.shields.io/npm/v/@react-x/geolocation.svg)][npm-geolocation] | Geolocation module for React DOM and React Native.
 [`@react-x/keychain`](/modules/keychain) | [![npm](https://img.shields.io/npm/v/@react-x/keychain.svg)][npm-keychain] | Persistent storage for React DOM (cookies) and React Native (keychain).
 [`@react-x/linking`](/modules/linking) | [![npm](https://img.shields.io/npm/v/@react-x/linking.svg)][npm-linking] | Linking module for React DOM and React Native.
+[`@react-x/net-info`](/modules/net-info) | [![npm](https://img.shields.io/npm/v/@react-x/net-info.svg)][npm-net-info] | NetInfo module for React DOM and React Native.
 [`@react-x/platform`](/modules/platform) | [![npm](https://img.shields.io/npm/v/@react-x/platform.svg)][npm-platform] | Platform module for React DOM and React Native.
 [`@react-x/storage`](/modules/storage) | [![npm](https://img.shields.io/npm/v/@react-x/storage.svg)][npm-storage] | Storage module for React DOM and React Native.
+[`@react-x/style-sheet`](/modules/style-sheet) | [![npm](https://img.shields.io/npm/v/@react-x/style-sheet.svg)][npm-style-sheet] | StyleSheet module for React DOM and React Native.
 
+[npm-animated]: https://www.npmjs.com/package/@react-x/animated
 [npm-clipboard]: https://www.npmjs.com/package/@react-x/clipboard
 [npm-geolocation]: https://www.npmjs.com/package/@react-x/geolocation
 [npm-keychain]: https://www.npmjs.com/package/@react-x/keychain
 [npm-linking]: https://www.npmjs.com/package/@react-x/linking
+[npm-net-info]: https://www.npmjs.com/package/@react-x/net-info
 [npm-platform]: https://www.npmjs.com/package/@react-x/platform
 [npm-storage]: https://www.npmjs.com/package/@react-x/storage
+[npm-style-sheet]: https://www.npmjs.com/package/@react-x/style-sheet
 
 ## Tools
 
