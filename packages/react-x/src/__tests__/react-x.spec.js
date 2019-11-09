@@ -10,7 +10,9 @@ describe('ReactX', () => {
       'Switch',
       'Text',
       'TextInput',
-      'Touchable',
+      'TouchableHighlight',
+      'TouchableOpacity',
+      'TouchableWithoutFeedback',
       'View',
     ];
 
