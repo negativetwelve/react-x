@@ -15,7 +15,11 @@ yarn add @react-x/touchable
 ## Usage
 
 ```javascript
-import Touchable from '@react-x/touchable';
+import {
+  TouchableHighlight,
+  TouchableOpacity,
+  TouchableWithoutFeedback,
+} from '@react-x/touchable';
 ```
 
 ## Contributing
