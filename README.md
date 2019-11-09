@@ -40,9 +40,19 @@ module.exports = {
 
 Name | Version | Description
 -----|---------|------------
+[`@react-x/activity-indicator`](/components/activity-indicator) | [![npm](https://img.shields.io/npm/v/@react-x/activity-indicator.svg)][npm-activity-indicator] | Cross-platform ActivityIndicator component for ReactDOM and React Native.
+[`@react-x/flat-list`](/components/flat-list) | [![npm](https://img.shields.io/npm/v/@react-x/flat-list.svg)][npm-flat-list] | Cross-platform FlatList component for ReactDOM and React Native.
+[`@react-x/image`](/components/image) | [![npm](https://img.shields.io/npm/v/@react-x/image.svg)][npm-image] | Cross-platform Image component for ReactDOM and React Native.
+[`@react-x/keyboard-avoiding-view`](/components/keyboard-avoiding-view) | [![npm](https://img.shields.io/npm/v/@react-x/keyboard-avoiding-view.svg)][npm-keyboard-avoiding-view] | Cross-platform KeyboardAvoidingView component for ReactDOM and React Native.
+[`@react-x/safe-area-view`](/components/safe-area-view) | [![npm](https://img.shields.io/npm/v/@react-x/safe-area-view.svg)][npm-safe-area-view] | Cross-platform SafeAreaView component for ReactDOM and React Native.
+[`@react-x/scroll-view`](/components/scroll-view) | [![npm](https://img.shields.io/npm/v/@react-x/scroll-view.svg)][npm-scroll-view] | Cross-platform ScrollView component for ReactDOM and React Native.
+[`@react-x/section-list`](/components/section-list) | [![npm](https://img.shields.io/npm/v/@react-x/section-list.svg)][npm-section-list] | Cross-platform SectionList component for ReactDOM and React Native.
 [`@react-x/svg`](/components/svg) | [![npm](https://img.shields.io/npm/v/@react-x/svg.svg)][npm-svg] | Cross-platform SVG support for ReactDOM and React Native.
 [`@react-x/switch`](/components/switch) | [![npm](https://img.shields.io/npm/v/@react-x/switch.svg)][npm-switch] | Switch component for toggling on/off.
+[`@react-x/text`](/components/text) | [![npm](https://img.shields.io/npm/v/@react-x/text.svg)][npm-text] | Cross-platform Text component for ReactDOM and React Native.
 [`@react-x/text-input`](/components/text-input) | [![npm](https://img.shields.io/npm/v/@react-x/text-input.svg)][npm-text-input] | TextInput component ReactDOM and React Native.
+[`@react-x/touchable`](/components/touchable) | [![npm](https://img.shields.io/npm/v/@react-x/touchable.svg)][npm-touchable] | Cross-platform Touchable components for ReactDOM and React Native.
+[`@react-x/view`](/components/view) | [![npm](https://img.shields.io/npm/v/@react-x/view.svg)][npm-view] | Cross-platform View component for ReactDOM and React Native.
 
 [npm-activity-indicator]: https://www.npmjs.com/package/@react-x/activity-indicator
 [npm-flat-list]: https://www.npmjs.com/package/@react-x/flat-list
