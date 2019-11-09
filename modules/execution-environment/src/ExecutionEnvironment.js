@@ -1,1 +1,1 @@
-export {Animated as default} from 'react-native-web';
+export {default} from 'exenv';
