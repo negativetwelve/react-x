@@ -1,6 +1,6 @@
 {
   "name": "@react-x/svg",
-  "version": "3.2.0",
+  "version": "3.3.0",
   "description": "Cross-platform SVG support for React and React Native.",
   "license": "MIT",
   "author": "Mark Miyashita <mark@miyashita.co>",
