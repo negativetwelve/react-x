@@ -14,7 +14,7 @@
   "files": [
     "build"
   ],
-  "peerDependencies": {
+  "dependencies": {
     "exenv": "1.2.2"
   },
   "scripts": {
