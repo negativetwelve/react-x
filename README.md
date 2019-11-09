@@ -74,6 +74,7 @@ Name | Version | Description
 -----|---------|------------
 [`@react-x/animated`](/modules/animated) | [![npm](https://img.shields.io/npm/v/@react-x/animated.svg)][npm-animated] | Animated module for React DOM and React Native.
 [`@react-x/clipboard`](/modules/clipboard) | [![npm](https://img.shields.io/npm/v/@react-x/clipboard.svg)][npm-clipboard] | Clipboard module for React DOM and React Native.
+[`@react-x/execution-environment`](/modules/execution-environment) | [![npm](https://img.shields.io/npm/v/@react-x/execution-environment.svg)][npm-execution-environment] | ExecutionEnvironment module for React DOM and React Native.
 [`@react-x/geolocation`](/modules/geolocation) | [![npm](https://img.shields.io/npm/v/@react-x/geolocation.svg)][npm-geolocation] | Geolocation module for React DOM and React Native.
 [`@react-x/keychain`](/modules/keychain) | [![npm](https://img.shields.io/npm/v/@react-x/keychain.svg)][npm-keychain] | Persistent storage for React DOM (cookies) and React Native (keychain).
 [`@react-x/linking`](/modules/linking) | [![npm](https://img.shields.io/npm/v/@react-x/linking.svg)][npm-linking] | Linking module for React DOM and React Native.
@@ -84,6 +85,7 @@ Name | Version | Description
 
 [npm-animated]: https://www.npmjs.com/package/@react-x/animated
 [npm-clipboard]: https://www.npmjs.com/package/@react-x/clipboard
+[npm-execution-environment]: https://www.npmjs.com/package/@react-x/execution-environment
 [npm-geolocation]: https://www.npmjs.com/package/@react-x/geolocation
 [npm-keychain]: https://www.npmjs.com/package/@react-x/keychain
 [npm-linking]: https://www.npmjs.com/package/@react-x/linking
