@@ -10,7 +10,7 @@
     "react",
     "react-x"
   ],
-  "main": "build/Touchable",
+  "main": "build/index",
   "files": [
     "build"
   ],
