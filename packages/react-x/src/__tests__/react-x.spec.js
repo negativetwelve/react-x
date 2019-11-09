@@ -1,5 +1,5 @@
 // Modules
-import ReactX from '../react-x';
+import * as ReactX from '../react-x';
 
 /* eslint-disable no-undef */
 describe('ReactX', () => {
