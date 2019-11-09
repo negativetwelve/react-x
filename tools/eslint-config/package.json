@@ -1,6 +1,6 @@
 {
   "name": "@react-x/eslint-config",
-  "version": "3.3.0",
+  "version": "3.4.0",
   "main": "src/eslintrc.js",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "1.13.0",

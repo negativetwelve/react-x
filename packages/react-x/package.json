@@ -1,6 +1,6 @@
 {
   "name": "react-x",
-  "version": "3.3.0",
+  "version": "3.4.0",
   "description": "Cross-platform React interfaces for ReactDOM and React Native.",
   "license": "MIT",
   "author": "Mark Miyashita <mark@miyashita.co>",
@@ -19,18 +19,18 @@
     "build"
   ],
   "dependencies": {
-    "@react-x/animated": "3.3.0",
-    "@react-x/clipboard": "3.3.0",
-    "@react-x/image": "3.3.0",
-    "@react-x/keychain": "3.3.0",
-    "@react-x/storage": "3.3.0",
-    "@react-x/style-sheet": "3.3.0",
-    "@react-x/svg": "3.3.0",
-    "@react-x/switch": "3.3.0",
-    "@react-x/text": "3.3.0",
-    "@react-x/text-input": "3.3.0",
-    "@react-x/touchable": "3.3.0",
-    "@react-x/view": "3.3.0"
+    "@react-x/animated": "3.4.0",
+    "@react-x/clipboard": "3.4.0",
+    "@react-x/image": "3.4.0",
+    "@react-x/keychain": "3.4.0",
+    "@react-x/storage": "3.4.0",
+    "@react-x/style-sheet": "3.4.0",
+    "@react-x/svg": "3.4.0",
+    "@react-x/switch": "3.4.0",
+    "@react-x/text": "3.4.0",
+    "@react-x/text-input": "3.4.0",
+    "@react-x/touchable": "3.4.0",
+    "@react-x/view": "3.4.0"
   },
   "peerDependencies": {
     "react": ">=16.8.3",
