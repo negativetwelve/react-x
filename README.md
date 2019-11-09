@@ -72,12 +72,15 @@ Name | Version | Description
 
 Name | Version | Description
 -----|---------|------------
+[`@react-x/animated`](/modules/animated) | [![npm](https://img.shields.io/npm/v/@react-x/animated.svg)][npm-animated] | Animated module for React DOM and React Native.
 [`@react-x/clipboard`](/modules/clipboard) | [![npm](https://img.shields.io/npm/v/@react-x/clipboard.svg)][npm-clipboard] | Clipboard module for React DOM and React Native.
 [`@react-x/geolocation`](/modules/geolocation) | [![npm](https://img.shields.io/npm/v/@react-x/geolocation.svg)][npm-geolocation] | Geolocation module for React DOM and React Native.
 [`@react-x/keychain`](/modules/keychain) | [![npm](https://img.shields.io/npm/v/@react-x/keychain.svg)][npm-keychain] | Persistent storage for React DOM (cookies) and React Native (keychain).
 [`@react-x/linking`](/modules/linking) | [![npm](https://img.shields.io/npm/v/@react-x/linking.svg)][npm-linking] | Linking module for React DOM and React Native.
+[`@react-x/net-info`](/modules/net-info) | [![npm](https://img.shields.io/npm/v/@react-x/net-info.svg)][npm-net-info] | NetInfo module for React DOM and React Native.
 [`@react-x/platform`](/modules/platform) | [![npm](https://img.shields.io/npm/v/@react-x/platform.svg)][npm-platform] | Platform module for React DOM and React Native.
 [`@react-x/storage`](/modules/storage) | [![npm](https://img.shields.io/npm/v/@react-x/storage.svg)][npm-storage] | Storage module for React DOM and React Native.
+[`@react-x/style-sheet`](/modules/style-sheet) | [![npm](https://img.shields.io/npm/v/@react-x/style-sheet.svg)][npm-style-sheet] | StyleSheet module for React DOM and React Native.
 
 [npm-animated]: https://www.npmjs.com/package/@react-x/animated
 [npm-clipboard]: https://www.npmjs.com/package/@react-x/clipboard
