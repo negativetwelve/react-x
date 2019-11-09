@@ -1,21 +1,21 @@
-# @react-x/text
+# @react-x/view
 
-[![npm](https://img.shields.io/npm/v/@react-x/text.svg)](https://www.npmjs.com/package/@react-x/text)
-[![npm](https://img.shields.io/npm/dt/@react-x/text.svg)](https://www.npmjs.com/package/@react-x/text)
-[![npm](https://img.shields.io/npm/l/@react-x/text.svg)](https://github.com/negativetwelve/react-x/blob/master/LICENSE)
+[![npm](https://img.shields.io/npm/v/@react-x/view.svg)](https://www.npmjs.com/package/@react-x/view)
+[![npm](https://img.shields.io/npm/dt/@react-x/view.svg)](https://www.npmjs.com/package/@react-x/view)
+[![npm](https://img.shields.io/npm/l/@react-x/view.svg)](https://github.com/negativetwelve/react-x/blob/master/LICENSE)
 
 ## Getting Started
 
-Install `@react-x/text` using `yarn`:
+Install `@react-x/view` using `yarn`:
 
 ```shell
-yarn add @react-x/text
+yarn add @react-x/view
 ```
 
 ## Usage
 
 ```javascript
-import Text from '@react-x/text';
+import View from '@react-x/view';
 ```
 
 ## Contributing
